@@ -18,11 +18,5 @@
 
   postgres=# CREATE EXTENSION hstore;
 
-- Installed Node.Js v12.16.3 from nodejs.org/en/download
- `npm install pg`
-
-- Installed Browserify
-  `npm install -g browserify`
-
 - May need to switch to older version of OpenSSL in Brew
   `brew switch openssl 1.0.2s`
