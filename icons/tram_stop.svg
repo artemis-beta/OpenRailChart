@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50"
+   height="50"
+   viewBox="0 0 13.229166 13.229167"
+   version="1.1"
+   id="svg5382"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="tram_stop.svg">
+  <defs
+     id="defs5376" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="16.658698"
+     inkscape:cy="26.54061"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5379">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-283.77082)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#619bff;fill-opacity:1;stroke:none;stroke-width:1.6472553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2878"
+       width="11.257252"
+       height="11.646392"
+       x="1.1395103"
+       y="284.31415"
+       rx="2.3532219"
+       ry="2.3532219" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.15791941;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2880"
+       width="5.6229334"
+       height="6.7230763"
+       x="4.0629754"
+       y="288.46017"
+       rx="1.2865304"
+       ry="1.4158837" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.46499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2901"
+       width="2.0788691"
+       height="2.0788691"
+       x="206.53242"
+       y="196.74368"
+       transform="rotate(45)" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#619bff;fill-opacity:1;stroke:none;stroke-width:0.65759534;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2880-5"
+       width="1.7135091"
+       height="2.0487623"
+       x="4.9152012"
+       y="289.34406"
+       rx="0.39205188"
+       ry="0.43147045" />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#619bff;fill-opacity:1;stroke:none;stroke-width:0.4768565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2933"
+       cx="5.7719555"
+       cy="293.92645"
+       r="0.54816866" />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#619bff;fill-opacity:1;stroke:none;stroke-width:0.47685653;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2933-2"
+       cx="8.1057825"
+       cy="293.92645"
+       r="0.54816866" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#619bff;fill-opacity:1;stroke:none;stroke-width:0.65759534;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2880-5-7"
+       width="1.7135091"
+       height="2.0487623"
+       x="7.2490282"
+       y="289.34406"
+       rx="0.39205188"
+       ry="0.43147045" />
+  </g>
+</svg>

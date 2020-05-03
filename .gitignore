@@ -1,0 +1,10 @@
+*.tgz
+*.bz2
+leaflet*
+db/*
+*.pkg
+*.json
+.vscode
+wget-log
+node_*
+.DS_STORE
