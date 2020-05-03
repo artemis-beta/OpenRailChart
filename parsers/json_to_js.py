@@ -133,3 +133,15 @@ if __name__ in "__main__":
 
     with open(os.path.join(_loc, 'db', 'mainlines.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_way('mainlines', " = 'rail'"))
+
+    with open(os.path.join(_loc, 'db', 'heritage_lines.js'), 'w') as f:
+        f.write(JSifyOSMSQL().query_way('preserved', " = 'preserved'"))
+
+    with open(os.path.join(_loc, 'db', 'miniature_railways.js'), 'w') as f:
+        f.write(JSifyOSMSQL().query_way('miniature_rails', " = 'miniature'"))
+
+    with open(os.path.join(_loc, 'db', 'disused_railways.js'), 'w') as f:
+        f.write(JSifyOSMSQL().query_way('disused_rails', " = 'disused'"))
+
+    with open(os.path.join(_loc, 'db', 'abandoned_railways.js'), 'w') as f:
+        f.write(JSifyOSMSQL().query_way('abandoned_rails', " = 'abandoned'"))

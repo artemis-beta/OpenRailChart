@@ -1,7 +1,7 @@
 var map = L.map( 'map', {
     // Centre view at lat=50, lon=-1, zoom=2, defZoom=2
     center: [51.5, 0],
-    minZoom: 10,
+    minZoom: 8,
     zoom: 10
 });
 
@@ -10,30 +10,33 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     subdomains: ['a','b','c']
 }).addTo( map );
 
-var map_layers = [signals_layer, buffers_layer, crossings_layer, tramways_layer, mainline_layer];
+map.addLayer(railroute_layer);
+map.addLayer(tramway_lines_layer);
+
+var detailed_map_layers = [signals_layer, buffers_layer, crossings_layer, tramway_stops_layer, stations_layer];
 
 var station_button = L.easyButton(station_button_icon, function(btn, map)
 {
     if(map.getZoom() > 12)
     {
-        map.hasLayer(mainline_layer) ? map.removeLayer(mainline_layer) : map.addLayer(mainline_layer);
+        map.hasLayer(railroute_layer) ? map.removeLayer(railroute_layer) : map.addLayer(railroute_layer);
     }
 })
 station_button.button.style.padding = '0px';
 station_button.addTo(map);
 
 
-for(var i = 0; i < map_layers.length; ++i) map.removeLayer(map_layers[i]);
+for(var i = 0; i < detailed_map_layers.length; ++i) map.removeLayer(detailed_map_layers[i]);
 
 function plotStations()
 {
     if(map.getZoom() < 13)
     {
-        for(var i = 0; i < map_layers.length; ++i) map.removeLayer(map_layers[i]);
+        for(var i = 0; i < detailed_map_layers.length; ++i) map.removeLayer(detailed_map_layers[i]);
     }
     else
     {
-        for(var i = 0; i < map_layers.length; ++i) map.addLayer(map_layers[i]);
+        for(var i = 0; i < detailed_map_layers.length; ++i) map.addLayer(detailed_map_layers[i]);
     }
 };
 
