@@ -4,6 +4,11 @@ import psycopg2
 import psycopg2.extras
 import re
 
+import sys
+sys.path.append(sys.path[0].replace('parsers', 'testing'))
+
+from dummy_nodes import dummy_nodes
+
 from tqdm import tqdm
 
 class JSifyOSMSQL(object):
@@ -24,7 +29,7 @@ class JSifyOSMSQL(object):
 FROM
     planet_osm_point AS pop
 INNER JOIN
-    planet_osm_nodes ON planet_osm_nodes.id = pop.osm_id
+    planet_osm_nodes ON planet_osm_nodes.id = pop.osm_id 
 WHERE
     pop.railway {}
 '''.format(query_str)
@@ -35,6 +40,10 @@ WHERE
 
         for row in _res:
             _out.append(dict(row))
+
+        if out_name in dummy_nodes:
+            print(out_name)
+            _out += dummy_nodes[out_name]
 
         return self._convertToJS(out_name, _out)
 
@@ -106,8 +115,8 @@ if __name__ in "__main__":
     with open(os.path.join(_loc, 'db', 'stations.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_node('stations', "= 'station'"))
 
-    #with open(os.path.join(_loc, 'db', 'all.js'), 'w') as f:
-    #    f.write(JSifyOSMSQL().query_node('all_points', 'IS NOT NULL'))
+    with open(os.path.join(_loc, 'db', 'all.js'), 'w') as f:
+        f.write(JSifyOSMSQL().query_node('all_points', 'IS NOT NULL'))
 
     with open(os.path.join(_loc, 'db', 'signals.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_node('signals', " = 'signal'"))
@@ -127,7 +136,6 @@ if __name__ in "__main__":
     with open(os.path.join(_loc, 'db', 'level_crossings.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_node('level_crossings', " = 'level_crossing'"))
 
-    
     with open(os.path.join(_loc, 'db', 'tramways.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_way('tram_ways', " = 'tram'"))
 
@@ -145,3 +153,6 @@ if __name__ in "__main__":
 
     with open(os.path.join(_loc, 'db', 'abandoned_railways.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_way('abandoned_rails', " = 'abandoned'"))
+
+    with open(os.path.join(_loc, 'db', 'turntables.js'), 'w') as f:
+        f.write(JSifyOSMSQL().query_node('turntables', " = 'turntable'"))

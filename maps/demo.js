@@ -1,8 +1,8 @@
 var map = L.map( 'map', {
     // Centre view at lat=50, lon=-1, zoom=2, defZoom=2
-    center: [51.5, 0],
+    center: [52.44418,  -2.37058],
     minZoom: 8,
-    zoom: 10
+    zoom: 15
 });
 
 L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -13,7 +13,7 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 map.addLayer(railroute_layer);
 map.addLayer(tramway_lines_layer);
 
-var detailed_map_layers = [signals_layer, buffers_layer, crossings_layer, tramway_stops_layer, stations_layer];
+var detailed_map_layers = [signals_layer, buffers_layer, crossings_layer, tramway_stops_layer, stations_layer, turntable_layer];
 
 var station_button = L.easyButton(station_button_icon, function(btn, map)
 {

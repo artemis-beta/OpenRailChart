@@ -4,6 +4,8 @@ var station_markers = [];
 for(var station in stations)
 {
   station_markers.push(L.marker( [stations[station].lat, stations[station].lon], {icon: icon_station}));
+  var popup = L.popup().setContent(stations[station].name);
+        station_markers[station_markers.length-1].bindPopup(popup);
 }
 
 for(var railway in mainlines)
