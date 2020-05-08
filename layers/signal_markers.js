@@ -18,7 +18,26 @@ for(var signal in signals)
         else
         {
             signal_markers.push(L.marker( [signals[signal].lat, signals[signal].lon], {icon: uk_whistle_boards["UK_Main"]}));
+        } 
+    }
+
+    else if (signals[signal]["railway:signal:main"] == "GB-WHR:main")
+    {
+        if(signals[signal]["railway:signal:main:form"] == "light")
+        {
+            signal_markers.push(L.marker( [signals[signal].lat, signals[signal].lon], {icon: uk_whr_signals["UK_WHR_HomeBoardLit"]}));
         }
+        else
+        {
+            signal_markers.push(L.marker( [signals[signal].lat, signals[signal].lon], {icon: uk_whr_signals["UK_WHR_HomeBoard"]}));
+        }
+    }
+
+    else if (signals[signal]["railway:signal:distant"] == "GB-WHR:distant")
+    {
+
+        signal_markers.push(L.marker( [signals[signal].lat, signals[signal].lon], {icon: uk_whr_signals["UK_WHR_DistantBoard"]}));
+  
     }
 
     else if(signals[signal]["railway:signal:main:form"] == "semaphore" && signals[signal]["railway:signal:main:type"] == "lower_quadrant")

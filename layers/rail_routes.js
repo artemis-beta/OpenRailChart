@@ -18,6 +18,11 @@ for(var railway in preserved)
   railroute_markers.push(L.polyline([preserved[railway]['nodes']], {color : 'brown'}));
 }
 
+for(var railway in narrow_gauge)
+{
+  railroute_markers.push(L.polyline([narrow_gauge[railway]['nodes']], {color : 'orange'}));
+}
+
 for(var railway in miniature_rails)
 {
   railroute_markers.push(L.polyline([miniature_rails[railway]['nodes']], {color : 'green'}));

@@ -87,7 +87,7 @@ WHERE
 
         for entry in dict_list:
             try:
-                _out_str += '\t{}'.format(entry['osm_id']) + ' : {\n'
+                _out_str += '\t{}'.format(entry['osm_id'] if entry['osm_id'] > 0 else abs(entry['osm_id'])) + ' : {\n'
             except KeyError:
                 _out_str += '\t{}'.format(entry['id']) + ' : {\n'
             for key in entry:
@@ -150,6 +150,9 @@ if __name__ in "__main__":
 
     with open(os.path.join(_loc, 'db', 'disused_railways.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_way('disused_rails', " = 'disused'"))
+
+    with open(os.path.join(_loc, 'db', 'narrow_gauge.js'), 'w') as f:
+        f.write(JSifyOSMSQL().query_way('narrow_gauge', " = 'narrow_gauge'"))
 
     with open(os.path.join(_loc, 'db', 'abandoned_railways.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_way('abandoned_rails', " = 'abandoned'"))
