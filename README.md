@@ -14,4 +14,4 @@ Currently I use the `Live Server` plugin for VSCode to preview the project.
 
 ## Issues
 
-I was unaware until later of the `-l` flag to `osm2pgsql` the parser script assumes this has not been set and converts manually.
+I was unaware until later of the `-l` flag for `osm2pgsql` for latitude/longitude coordinates. As such the parser script assumes this has not been set when extracting Geofabrik data to the PostgreSQL database and converts the coordinates manually.
