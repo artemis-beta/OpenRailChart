@@ -18,6 +18,10 @@ extract the information needed to build the layers.
 
 * Determine a good and complete tagging scheme for UK railway signals, development of such a tagging scheme can be found [here](https://github.com/artemis-beta/ukosmrailtags/).
 
+## Icons Directory
+
+A directory of all current icons within this repository is given [here](ORM_Icons.md).
+
 ## Running
 
 Currently I use the `Live Server` plugin for VSCode to preview the project.
