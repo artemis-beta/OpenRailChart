@@ -3,6 +3,8 @@
 |---|---|
 |![Midland Preview](screenshots/westmidlands.png)|![Midland Preview](screenshots/beddgelert.png)|
 |Demo of UK Mainline Signals|Demo of WHR style signals|
+|![Birmingham Junctions](screenshots/birmingham_feathers.png)| |
+|Concept for feather indicators as additions to main signals</br>The components are added separately depending on</br>the values under `railway:signal:route:states`.| |
 
 Experimental project to superimpose railway information on OpenStreetMap. I wanted to create a base from which I could build a UK icon scheme possibly for OpenRailwayMap.
 The project makes use of Leaflet Javascript and uses tiles from the OSM server. A local database is built for nodes using `osm2pgsql` and then parsed using a python script to

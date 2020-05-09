@@ -1,6 +1,6 @@
 var map = L.map( 'map', {
     // Centre view at lat=50, lon=-1, zoom=2, defZoom=2
-    center: [53.00825, -4.10648],
+    center: [52.48073, -1.88505],
     minZoom: 8,
     zoom: 15
 });

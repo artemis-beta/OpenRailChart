@@ -118,6 +118,8 @@ dummy_nodes['signals'][12].update({'railway:signal:main:form' : 'sign', 'railway
 dummy_nodes['signals'][13].update({'railway:signal:main:form' : 'sign', 'railway:signal:distant' : 'GB-WHR:distant', 'lat' : 53.00825*1E7, 'lon' :-4.10648*1E7, 'osm_id' : 599999999999, 'id' : 599999999999})
 dummy_nodes['signals'][14].update({'railway:signal:main:form' : 'light', 'railway:signal:main' : 'GB-WHR:main', 'lat' : 53.01312*1E7, 'lon' : -4.11093*1E7, 'osm_id' : 699999999999, 'id' : 699999999999})
 dummy_nodes['signals'][15].update({'railway:signal:main:form' : 'sign', 'railway:signal:distant' : 'GB-WHR:distant', 'lat' : 53.01293*1E7, 'lon' : -4.11244*1E7, 'osm_id' : 799999999999, 'id' : 799999999999})
-
-
+dummy_nodes['signals'][16].update({'railway:signal:main:form' : 'light', 'railway:signal:route:states' : 'position_1', 'lat' : 52.48073*1E7, 'lon' : -1.88505*1E7, 'osm_id' : 899999999999, 'id' : 899999999999})
+dummy_nodes['signals'][17].update({'railway:signal:main:form' : 'light', 'railway:signal:route:states' : 'position_1;position_4;position_5', 'lat' : 52.48143*1E7, 'lon' : -1.88151*1E7, 'osm_id' : 819999999999, 'id' : 819999999999})
+dummy_nodes['signals'][18].update({'railway:signal:main:form' : 'light', 'railway:signal:route:states' : 'position_1', 'lat' : 52.48142*1E7, 'lon' : -1.87920*1E7, 'osm_id' : 829999999999, 'id' : 829999999999})
+dummy_nodes['signals'][19].update({'railway:signal:main:form' : 'light', 'railway:signal:route:states' : 'position_4', 'lat' : 52.48153*1E7, 'lon' : -1.87784*1E7, 'osm_id' : 839999999999, 'id' : 839999999999})
 
