@@ -7,7 +7,6 @@ for(var ped_crossing in ped_crossings)
 
 for(var lev_crossing in level_crossings)
 {
-
   crossing_markers.push(L.marker( [level_crossings[lev_crossing].lat, level_crossings[lev_crossing].lon], {icon: lc_uk_icon}));
 }
 
