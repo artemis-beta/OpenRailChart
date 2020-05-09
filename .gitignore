@@ -1,6 +1,5 @@
 *.tgz
 *.bz2
-leaflet*
 db/*
 *.pkg
 *.json
