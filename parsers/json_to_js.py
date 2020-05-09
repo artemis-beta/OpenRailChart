@@ -2,6 +2,7 @@ import json
 import os
 import psycopg2
 import psycopg2.extras
+import subprocess
 import re
 
 import sys
@@ -111,6 +112,9 @@ WHERE
 
 if __name__ in "__main__":
     _loc = '/'.join(__file__.split('/')[:-2])
+
+    if not os.path.exists(os.path.join(_loc, 'db')):
+        subprocess.check_call('mkdir -p {}'.format(os.path.join(_loc, 'db')), shell=True)
 
     with open(os.path.join(_loc, 'db', 'stations.js'), 'w') as f:
         f.write(JSifyOSMSQL().query_node('stations', "= 'station'"))
