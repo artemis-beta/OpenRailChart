@@ -53,6 +53,9 @@ class DataExtractor(MutableMapping):
     def __iter__(self):
         return iter(self._dataset)
 
+    def __setitem__(self, key, value):
+        self._dataset[key] = value
+
     def _convert_to_osm(self, filename: str) -> str:
         """Convert PBF OSM file to OSM file
 
@@ -71,7 +74,7 @@ class DataExtractor(MutableMapping):
         AssertionError
             if the file type does not match expectation
         """
-        filepath = os.path.abspath(filepath)
+        filename = os.path.abspath(filename)
         _file_label, _suffix = filename.split('.', 1)
 
         if not _suffix == 'osm.pbf':
@@ -91,6 +94,8 @@ class DataExtractor(MutableMapping):
                 ['osmconvert', filename, f'-o={_output_file}'],
                 shell=False
             )
+            
+        return _output_file
 
     def _filter_railway_data(self, osm_filename: str) -> str:
         """Filter out railway data from OSM data file
@@ -105,7 +110,7 @@ class DataExtractor(MutableMapping):
         str
             address of new output file containing only railway data
         """
-        filepath = os.path.abspath(filepath)
+        filename = os.path.abspath(osm_filename)
         _file_label, _suffix = filename.split('.', 1)
 
         _output_file = f'{_file_label}_railways.osm'
@@ -118,12 +123,14 @@ class DataExtractor(MutableMapping):
             subprocess.check_call(
                 [
                     'osmfilter',
-                    filepath,
+                    filename,
                     '--keep="railway="',
                     f'-o={_output_file}'
                 ],
                 shell=False
             )
+
+        return _output_file
 
     def _get_layer_from_file(self, osm_railway_file: str, layer: str) -> str:
         """Extract layer from railway data and save as GeoJSON
@@ -140,7 +147,7 @@ class DataExtractor(MutableMapping):
         str
             name of output GeoJSON file containing layer info
         """
-        filepath = os.path.abspath(filepath)
+        filename = os.path.abspath(osm_railway_file)
         _file_label, _suffix = filename.split('.', 1)
 
         _output_file = f'{_file_label}_{layer.lower()}.geojson'
@@ -157,9 +164,12 @@ class DataExtractor(MutableMapping):
                     '-f',
                     '"GeoJSON"',
                     _output_file,
+                    filename,
                     layer
                 ]
             )
+        
+        return _output_file
 
 
     def extract_layer_from_file(self, osm_data: str, layer: str) -> None:
@@ -194,14 +204,14 @@ class DataExtractor(MutableMapping):
                     f"Command '{command}' was not found,"
                     " is osmctools installed?"
                 )
-        if os.path.splitext(osm_data)[1] is not 'osm':
+        if os.path.splitext(osm_data)[1] != 'osm':
             _osm_file = self._convert_to_osm(osm_data)
         else:
             _osm_file = osm_data
         _rly_file = self._filter_railway_data(_osm_file)
         _geo_json_file = self._get_layer_from_file(_rly_file, layer)
 
-        for source in [_osm_file, _rly_file, _geo_json_file]:
+        for source in [_osm_file, _rly_file]:
             if source not in self._source_files:
                 self._source_files.append(source)
 
@@ -212,11 +222,17 @@ class DataExtractor(MutableMapping):
             f"Extraction for layer '{layer}' completed succesfully."
         )
 
-    def clear_cache(self):
-        """
-        Delete all source files
+    def clear_cache(self, exception: List[str] = []):
+        """Delete all source files
+
+        Parameters
+        ----------
+        exception : List[str], optional
+            files to keep, by default []
         """
         for source in self._source_files:
+            if exception and source in exception:
+                continue
             os.remove(source)
         self._source_files = []
 
@@ -238,6 +254,8 @@ def convert_all_data_from_file(input_file: str = None,
 
     for layer in layers:
         _extractor.extract_layer_from_file(input_file, layer)
+
+    _extractor.clear_cache(input_file)
 
 if __name__ in "__main__":
     convert_all_data_from_file()
