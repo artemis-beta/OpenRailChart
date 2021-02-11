@@ -10,11 +10,12 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     subdomains: ['a','b','c']
 }).addTo( map );
 
-map.addLayer(railroute_layer);
-map.addLayer(tramway_lines_layer);
+//map.addLayer(railroute_layer);
+//map.addLayer(tramway_lines_layer);
 
-var detailed_map_layers = [signals_layer, buffers_layer, crossings_layer, tramway_stops_layer, stations_layer, turntable_layer];
+var detailed_map_layers = [signals_layer]//, buffers_layer, crossings_layer, tramway_stops_layer, stations_layer, turntable_layer];
 
+/*
 var station_button = L.easyButton(station_button_icon, function(btn, map)
 {
     if(map.getZoom() > 12)
@@ -24,6 +25,7 @@ var station_button = L.easyButton(station_button_icon, function(btn, map)
 })
 station_button.button.style.padding = '0px';
 station_button.addTo(map);
+*/
 
 
 for(var i = 0; i < detailed_map_layers.length; ++i) map.removeLayer(detailed_map_layers[i]);

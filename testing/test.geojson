@@ -1,0 +1,45 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "railway": "signal",
+                "railway:signal:main": "GB-NR:main",
+                "railway:signal:position": "left",
+                "railway:signal:main:form": "light",
+                "railway:signal:main:design": "combined"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.46234236792,
+                    53.37669977239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "railway": "signal",
+                "railway:signal:main": "GB-NR:main",
+                "railway:signal:position": "left",
+                "railway:signal:route": "GB-NR:route",
+                "railway:signal:main:form": "light",
+                "railway:signal:main:design": "combined",
+                "railway:signal:route:form": "light",
+                "railway:signal:route:design": "feather",
+                "railway:signal:route:states": "position_1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.46175161138,
+                    53.37666697083
+                ]
+            }
+        }
+    ]
+}

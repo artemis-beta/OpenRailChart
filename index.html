@@ -1,9 +1,9 @@
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
    <head profile="http://gmpg.org/xfn/11">
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
- 
+
       <link rel="stylesheet" type="text/css" href="leaflet.css" />
-      
+
       <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
       <script type='text/javascript' src='leaflet.js'></script>
 
@@ -14,18 +14,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    </head>
- 
+
    <body>
       <h1>Open Rail Chart</h1>
-      
+
       <p>Here's a map of the countries I've either lived in or travelled through for a month or more.
-      
+
       <div id="map" style="height: 1000px; border: 1px solid #AAA;"></div>
- 
+
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
       <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 
       <!-- Read in dictionaries of railway objects -->
+      <!--
       <script type='text/javascript' src='db/stations.js'></script>
       <script type='text/javascript' src='db/signals.js'></script>
       <script type='text/javascript' src='db/buffers.js'></script>
@@ -40,6 +41,12 @@
       <script type='text/javascript' src='db/miniature_railways.js'></script>
       <script type='text/javascript' src='db/disused_railways.js'></script>
       <script type='text/javascript' src='db/abandoned_railways.js'></script>
+      -->
+
+      <script type='text/javascript' src='testing/dummy_nodes.js'></script>
+      <script>
+      var signals = dummy;
+      </script>
 
       <!-- Read Icons -->
       <script type="text/javascript" src="type_sets/station_icon.js"></script>
@@ -55,12 +62,12 @@
       <script type="text/javascript" src="type_sets/GB/uk_whr_signals.js"></script>
 
       <!-- Marker Files -->
-      <script type='text/javascript' src='layers/crossing_markers.js'></script>
+      <!--<script type='text/javascript' src='layers/crossing_markers.js'></script>
       <script type='text/javascript' src='layers/turntable_markers.js'></script>
       <script type='text/javascript' src='layers/buffer_markers.js'></script>
-      <script type='text/javascript' src='layers/rail_routes.js'></script>
-      <script type='text/javascript' src='layers/signal_markers.js'></script>
-      <script type='text/javascript' src='layers/tram_routes.js'></script> 
+      <script type='text/javascript' src='layers/rail_routes.js'></script>-->
+      <script type='text/javascript' src='layers/signal_markers_json.js'></script>
+      <!--<script type='text/javascript' src='layers/tram_routes.js'></script>-->
 
       <!-- Main -->
       <script type='text/javascript' src='maps/demo.js'></script>
