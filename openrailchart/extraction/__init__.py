@@ -59,13 +59,15 @@ class DataExtractor(MutableMapping):
     def __setitem__(self, key, value):
         self._dataset[key] = value
 
-    def _convert_to_osm(self, filename: str) -> str:
+    def _convert_to_osm(self, filename: str, out_filename: str) -> None:
         """Convert PBF OSM file to OSM file
 
         Parameters
         ----------
         filename : str
             address of '.osm.pbf' file
+        out_filename : str
+            output file name
 
         Returns
         -------
@@ -78,7 +80,7 @@ class DataExtractor(MutableMapping):
             if the file type does not match expectation
         """
         filename = os.path.abspath(filename)
-        _file_label, _suffix = filename.split('.', 1)
+        _, _suffix = filename.split('.', 1)
 
         if not _suffix == 'osm.pbf':
             raise AssertionError(
@@ -86,27 +88,27 @@ class DataExtractor(MutableMapping):
                 f"but got type '{_suffix}'"
             )
 
-        _output_file = f'{_file_label}.osm'
-
-        if not os.path.exists(_output_file):
+        if not os.path.exists(out_filename):
             self._logger.info(
-                f"Converting: '{filename}' -> '{_output_file}'" 
+                f"Converting: '{filename}' -> '{out_filename}'" 
             )
 
             subprocess.check_call(
-                ['osmconvert', filename, f'-o={_output_file}'],
+                ['osmconvert', filename, f'-o={out_filename}'],
                 shell=False
             )
-            
-        return _output_file
 
-    def _filter_railway_data(self, osm_filename: str) -> str:
+    def _filter_railway_data(self, osm_filename: str, out_filename: str, object: str='') -> None:
         """Filter out railway data from OSM data file
 
         Parameters
         ----------
         osm_filename : str
             data file of type '.osm'
+        out_filename : str
+            output file name
+        object : str, optional
+            value for the 'railway' key to narrow extraction data
 
         Returns
         -------
@@ -114,34 +116,31 @@ class DataExtractor(MutableMapping):
             address of new output file containing only railway data
         """
         filename = os.path.abspath(osm_filename)
-        _file_label, _suffix = filename.split('.', 1)
 
-        _output_file = f'{_file_label}_railways.osm'
-
-        if not os.path.exists(_output_file):
+        if not os.path.exists(out_filename):
             self._logger.info(
-                f"Extract Railway Data: '{osm_filename}' -> '{_output_file}'"
+                f"Extract Railway Data: '{osm_filename}' -> '{out_filename}'"
             )
 
             subprocess.check_call(
                 [
                     'osmfilter',
                     filename,
-                    '--keep="railway="',
-                    f'-o={_output_file}'
+                    f'--keep="railway={object}"',
+                    f'-o={out_filename}'
                 ],
                 shell=False
             )
 
-        return _output_file
-
-    def _get_layer_from_file(self, osm_railway_file: str, layer: str) -> str:
+    def _get_layer_from_file(self, osm_railway_file: str, out_filename: str, layer: str) -> None:
         """Extract layer from railway data and save as GeoJSON
 
         Parameters
         ----------
         osm_railway_file : str
             file of type '.osm' containing railway tag data
+        out_filename : str
+            output file name
         layer : str
             name of layer to extract
 
@@ -150,14 +149,11 @@ class DataExtractor(MutableMapping):
         str
             name of output GeoJSON file containing layer info
         """
-        filename = os.path.abspath(osm_railway_file)
-        _file_label, _suffix = filename.split('.', 1)
+        filename = os.path.abspath(osm_railway_file)    
 
-        _output_file = f'{_file_label}_{layer.lower()}.geojson'
-
-        if not os.path.exists(_output_file):
+        if not os.path.exists(out_filename):
             self._logger.info(
-                f"Writing Layer Data: '{osm_railway_file}' -> '{_output_file}'"
+                f"Writing Layer Data: '{osm_railway_file}' -> '{out_filename}'"
             )
 
             subprocess.check_call(
@@ -165,17 +161,15 @@ class DataExtractor(MutableMapping):
                     'ogr2ogr',
                     '-skipfailures',
                     '-f',
-                    '"GeoJSON"',
-                    _output_file,
+                    'GeoJSON',
+                    out_filename,
                     filename,
                     layer
                 ]
             )
-        
-        return _output_file
 
 
-    def extract_layer_from_file(self, osm_data: str, layer: str) -> None:
+    def extract_layer_from_file(self, osm_data: str, layer: str, object: str = '') -> None:
         """Extract data layer from an OSM or OSM PBF file to a JSON dict
         and store in this instance also
 
@@ -185,6 +179,8 @@ class DataExtractor(MutableMapping):
             '.osm' or '.osm.pbf' datafile to extract data from
         layer : str
             name of layer to extract
+        object : str, optional
+            key value to filter to i.e. railway=`object`
 
         """
         if not os.path.exists(osm_data):
@@ -201,18 +197,38 @@ class DataExtractor(MutableMapping):
                 f"recognised layers are: {', '.join(OSM_LAYERS)}"
             )
         
-        for command in ['osmconvert', 'osmfilter', 'ogr2ogr']:
+        for command in ['osmconvert', 'osmfilter']:
             if not shutil.which(command):
                 raise AssertionError(
                     f"Command '{command}' was not found,"
                     " is osmctools installed?"
                 )
-        if os.path.splitext(osm_data)[1] != 'osm':
-            _osm_file = self._convert_to_osm(osm_data)
-        else:
-            _osm_file = osm_data
-        _rly_file = self._filter_railway_data(_osm_file)
-        _geo_json_file = self._get_layer_from_file(_rly_file, layer)
+        
+        if not shutil.which('ogr2ogr'):
+            raise AssertionError(
+                f"Command 'ogr2ogr' was not found,"
+                " is 'gdal-bin' or 'python3-gdal' installed?"
+            )
+
+
+        _file_label, _ = osm_data.split('.', 1)
+
+        _osm_file = f'{_file_label}.osm'
+
+        _rly_file = f'{_file_label}_railways.osm'
+
+        _geo_json_file = f'{_file_label}_railway_{layer.lower()}.geojson'
+
+
+        # Only run the stages that are required
+        if not os.path.exists(_osm_file):
+            self._convert_to_osm(osm_data, _osm_file)
+
+        if not os.path.exists(_rly_file):
+            self._filter_railway_data(_osm_file, _rly_file, object)
+
+        if not os.path.exists(_geo_json_file):
+            self._get_layer_from_file(_rly_file, _geo_json_file, layer)
 
         for source in [_osm_file, _rly_file]:
             if source not in self._source_files:
@@ -242,8 +258,9 @@ class DataExtractor(MutableMapping):
 @click.command()
 @click.argument('input_file')
 @click.option('--layers', help='comma separated layers list', type=str)
+@click.option('--value', help='railway key value to extract, by default *', default='', type=str)
 def convert_all_data_from_file(input_file: str = None, 
-                               layers: str = None) -> None:
+                               layers: str = None, value: str = '') -> None:
 
     if not input_file:
         raise ValueError("No input file specified.")
@@ -256,7 +273,7 @@ def convert_all_data_from_file(input_file: str = None,
     _extractor = DataExtractor()
 
     for layer in layers:
-        _extractor.extract_layer_from_file(input_file, layer)
+        _extractor.extract_layer_from_file(input_file, layer, value)
 
     _extractor.clear_cache(input_file)
 
