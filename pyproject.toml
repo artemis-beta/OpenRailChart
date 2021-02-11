@@ -8,6 +8,7 @@ license = "GPL-v3"
 [tool.poetry.dependencies]
 python = "^3.9"
 click = "^7.1.2"
+wget = "^3.2"
 
 [tool.poetry.dev-dependencies]
 
@@ -17,3 +18,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 osm2raildat = "openrailchart.extraction:convert_all_data_from_file"
+osmfetch = "openrailchart.extraction:fetch_geofabrik_data"

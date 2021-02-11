@@ -16,6 +16,9 @@ import shutil
 import os
 import logging
 import click
+import wget
+
+from urllib.error import URLError
 
 logging.basicConfig()
 
@@ -256,6 +259,43 @@ def convert_all_data_from_file(input_file: str = None,
         _extractor.extract_layer_from_file(input_file, layer)
 
     _extractor.clear_cache(input_file)
+
+
+@click.command()
+@click.argument('search_string')
+@click.option('--outdir', help='output location', type=str, default=os.getcwd())
+def fetch_geofabrik_data(search_string: str, outdir: str) -> None:
+    """Download data from GeoFabrik website
+
+    Parameters
+    ----------
+    search_string : str
+        url address location for particular area to download recognised by GF,
+        for example the GB would be 'europe/great-britain'
+    outdir : str
+        location to download data to
+
+    Raises
+    ------
+    URLError
+        if the created URL using the search string is not recognised
+    """
+    _root_url = 'http://download.geofabrik.de/'
+
+    try:
+        _url = os.path.join(_root_url, f'{search_string}-latest.osm.pbf')
+        _out = os.path.join(outdir, os.path.basename(_url))
+
+        print(
+            f"Attempting to download '{_url} -> {_out}',"
+            " this may take some time..."
+        )
+        wget.download(_url, _out)
+    except URLError:
+        raise URLError(
+            f"ERROR: Failed to retrieve data, invalid constructed URL '{_url}'"
+        )
+
 
 if __name__ in "__main__":
     convert_all_data_from_file()
