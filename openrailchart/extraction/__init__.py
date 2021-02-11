@@ -6,276 +6,121 @@
 #   to be used by the OpenRailChart.                                          #
 #                                                                             #
 #   @author  :  K. Zarebski                                                   #
-#   @date    :  last modified 2021-02-10                                      #
+#   @date    :  last modified 2021-02-11                                      #
 #   @license :  GPL-v3                                                        #
 #                                                                             #
 ###############################################################################
 import subprocess
-import json
-import shutil
 import os
-import logging
 import click
+import shutil
+import logging
 import wget
 
 from urllib.error import URLError
 
 logging.basicConfig()
 
-from typing import Dict, List
-from collections.abc import MutableMapping
-
-OSM_LAYERS = [
-    'lines',
-    'points',
-    'multilinestrings',
-    'multipolygons',
-    'other_relations'
-]
-
-class DataExtractor(MutableMapping):
-    def __init__(self) -> None:
-        """
-        Extract data from OSM /OSM PBF files to a GeoJSON file, also store the
-        contents locally as a dictionary
-        """
-        self._logger = logging.getLogger(self.__class__.__name__)
-        self._logger.setLevel(logging.INFO)
-        self._dataset: Dict = {}
-        self._source_files: List[str] = []
-
-    def __delitem__(self, key):
-        del self._dataset[key]
-
-    def __getitem__(self, key):
-        return self._dataset[key]
-
-    def __len__(self):
-        return len(self._dataset)
-
-    def __iter__(self):
-        return iter(self._dataset)
-
-    def __setitem__(self, key, value):
-        self._dataset[key] = value
-
-    def _convert_to_osm(self, filename: str, out_filename: str) -> None:
-        """Convert PBF OSM file to OSM file
-
-        Parameters
-        ----------
-        filename : str
-            address of '.osm.pbf' file
-        out_filename : str
-            output file name
-
-        Returns
-        -------
-        str
-            address of output '.osm' file
-
-        Raises
-        ------
-        AssertionError
-            if the file type does not match expectation
-        """
-        filename = os.path.abspath(filename)
-        _, _suffix = filename.split('.', 1)
-
-        if not _suffix == 'osm.pbf':
-            raise AssertionError(
-                f"Expected input file of type '.osm.pbf', "
-                f"but got type '{_suffix}'"
-            )
-
-        if not os.path.exists(out_filename):
-            self._logger.info(
-                f"Converting: '{filename}' -> '{out_filename}'" 
-            )
-
-            subprocess.check_call(
-                ['osmconvert', filename, f'-o={out_filename}'],
-                shell=False
-            )
-
-    def _filter_railway_data(self, osm_filename: str, out_filename: str, object: str='') -> None:
-        """Filter out railway data from OSM data file
-
-        Parameters
-        ----------
-        osm_filename : str
-            data file of type '.osm'
-        out_filename : str
-            output file name
-        object : str, optional
-            value for the 'railway' key to narrow extraction data
-
-        Returns
-        -------
-        str
-            address of new output file containing only railway data
-        """
-        filename = os.path.abspath(osm_filename)
-
-        if not os.path.exists(out_filename):
-            self._logger.info(
-                f"Extract Railway Data: '{osm_filename}' -> '{out_filename}'"
-            )
-
-            subprocess.check_call(
-                [
-                    'osmfilter',
-                    filename,
-                    f'--keep="railway={object}"',
-                    f'-o={out_filename}'
-                ],
-                shell=False
-            )
-
-    def _get_layer_from_file(self, osm_railway_file: str, out_filename: str, layer: str) -> None:
-        """Extract layer from railway data and save as GeoJSON
-
-        Parameters
-        ----------
-        osm_railway_file : str
-            file of type '.osm' containing railway tag data
-        out_filename : str
-            output file name
-        layer : str
-            name of layer to extract
-
-        Returns
-        -------
-        str
-            name of output GeoJSON file containing layer info
-        """
-        filename = os.path.abspath(osm_railway_file)    
-
-        if not os.path.exists(out_filename):
-            self._logger.info(
-                f"Writing Layer Data: '{osm_railway_file}' -> '{out_filename}'"
-            )
-
-            subprocess.check_call(
-                [
-                    'ogr2ogr',
-                    '-skipfailures',
-                    '-f',
-                    'GeoJSON',
-                    out_filename,
-                    filename,
-                    layer
-                ]
-            )
-
-
-    def extract_layer_from_file(self, osm_data: str, layer: str, object: str = '') -> None:
-        """Extract data layer from an OSM or OSM PBF file to a JSON dict
-        and store in this instance also
-
-        Parameters
-        ----------
-        osm_data : str
-            '.osm' or '.osm.pbf' datafile to extract data from
-        layer : str
-            name of layer to extract
-        object : str, optional
-            key value to filter to i.e. railway=`object`
-
-        """
-        if not os.path.exists(osm_data):
-            raise FileNotFoundError(
-                f"Could not load GeoJSON from file '{osm_data}', "
-                "file not found."
-            )
-
-        layer = layer.lower()
-
-        if layer not in OSM_LAYERS:
-            raise AssertionError(
-                f"Unrecognised layer '{layer}' specified, "
-                f"recognised layers are: {', '.join(OSM_LAYERS)}"
-            )
-        
-        for command in ['osmconvert', 'osmfilter']:
-            if not shutil.which(command):
-                raise AssertionError(
-                    f"Command '{command}' was not found,"
-                    " is osmctools installed?"
-                )
-        
-        if not shutil.which('ogr2ogr'):
-            raise AssertionError(
-                f"Command 'ogr2ogr' was not found,"
-                " is 'gdal-bin' or 'python3-gdal' installed?"
-            )
-
-
-        _file_label, _ = osm_data.split('.', 1)
-
-        _osm_file = f'{_file_label}.osm'
-
-        _rly_file = f'{_file_label}_railways.osm'
-
-        _geo_json_file = f'{_file_label}_railway_{layer.lower()}.geojson'
-
-
-        # Only run the stages that are required
-        if not os.path.exists(_osm_file):
-            self._convert_to_osm(osm_data, _osm_file)
-
-        if not os.path.exists(_rly_file):
-            self._filter_railway_data(_osm_file, _rly_file, object)
-
-        if not os.path.exists(_geo_json_file):
-            self._get_layer_from_file(_rly_file, _geo_json_file, layer)
-
-        for source in [_osm_file, _rly_file]:
-            if source not in self._source_files:
-                self._source_files.append(source)
-
-        with open(_geo_json_file) as f:
-            self._dataset[layer] = json.load(f)
-        
-        self._logger.info(
-            f"Extraction for layer '{layer}' completed succesfully."
-        )
-
-    def clear_cache(self, exception: List[str] = []):
-        """Delete all source files
-
-        Parameters
-        ----------
-        exception : List[str], optional
-            files to keep, by default []
-        """
-        for source in self._source_files:
-            if exception and source in exception:
-                continue
-            os.remove(source)
-        self._source_files = []
 
 @click.command()
 @click.argument('input_file')
-@click.option('--layers', help='comma separated layers list', type=str)
-@click.option('--value', help='railway key value to extract, by default *', default='', type=str)
-def convert_all_data_from_file(input_file: str = None, 
-                               layers: str = None, value: str = '') -> None:
+@click.option('--value', help='Value for railway=<value> tag', default=None, type=str)
+@click.option('--verbose/--normal', help='run in verbose mode', default=False)
+@click.option('--overwrite/--keep', help='overwrite existing files', default=False)
+def extract_railway_data(input_file: str, value: str = None, verbose: bool = False, overwrite: bool = False) -> None:
+    """Extract railway data from OSM.PBF file
 
-    if not input_file:
-        raise ValueError("No input file specified.")
+    Parameters
+    ----------
+    input_file : str
+        input file of type '.osm.pbf'
+    value : str, optional
+        value for key 'railway' in osm, by default None (all values)
+    verbose : bool, optional
+        run extraction in verbose mode
+    overwrite : bool, optional
+        overwrite existing files
 
-    if layers:
-        layers = [i.strip() for i in layers.lower().split(',')]
+    Raises
+    ------
+    FileNotFoundError
+        if input file does not exist
+    AssertionError:
+        if 'osmium' command not found
+    """
+    _logger = logging.getLogger('ORC:Extraction')
+    _logger.setLevel(logging.INFO if not verbose else logging.DEBUG)
+    if not shutil.which('osmium'):
+        raise AssertionError(
+            f"Could not find command 'osmium', is it "
+            "'osmium-tool' installed?"
+        )
+
+    _full_path = os.path.abspath(input_file)
+    _label, _ = _full_path.split('.', 1)
+    _label = _label.replace('-', '_')
+
+    _rly_file = f'{_label}_railways.os.pbf'
+
+    _value = f'={value}' if value else ''
+
+    _cmd = [
+        'osmium',
+        'tags-filter',
+        '--overwrite',
+        '-R',
+        '-o',
+        _rly_file,
+        _full_path,
+        f'nw/railway{_value}'
+    ]
+
+    if not os.path.exists(_rly_file) or overwrite:
+        _logger.info(
+            f"Extracting Railway data from '{input_file}'"
+        )
+
+        _logger.debug(f' {" ".join(_cmd)}')
+
+        subprocess.check_call(
+            _cmd,
+            shell=False
+        )
     else:
-        layers = OSM_LAYERS
+        _logger.warning(
+            f"File '{_rly_file}' already exists, to overwrite "
+            "run with '--overwrite'"
+        )
 
-    _extractor = DataExtractor()
+    _tag_val = 'all' if not value else value.lower()
+    _geo_file = f'{_label}_{_tag_val}.geojson'
 
-    for layer in layers:
-        _extractor.extract_layer_from_file(input_file, layer, value)
+    _overwrite = '' if not overwrite else '--overwrite'
 
-    _extractor.clear_cache(input_file)
+    _cmd = [
+        'osmium',
+        'export',
+        _rly_file,
+        '-o',
+        _geo_file,
+        _overwrite
+    ]
+
+    if not os.path.exists(_geo_file) or overwrite:
+        _logger.info(
+            f"Writing results to GeoJSON file: '{_geo_file}'"
+        )
+        _logger.debug(f' {" ".join(_cmd)}')
+
+        subprocess.check_call(
+            _cmd,
+            shell=False
+        )
+    else:
+        _logger.warning(
+            f"File '{_geo_file}' already exists, to overwrite "
+            "run with '--overwrite'"
+        )
 
 
 @click.command()
@@ -297,13 +142,16 @@ def fetch_geofabrik_data(search_string: str, outdir: str) -> None:
     URLError
         if the created URL using the search string is not recognised
     """
+    _logger = logging.getLogger('ORC:Download')
+    _logger.setLevel(logging.INFO)
+
     _root_url = 'http://download.geofabrik.de/'
 
     try:
         _url = os.path.join(_root_url, f'{search_string}-latest.osm.pbf')
         _out = os.path.join(outdir, os.path.basename(_url))
 
-        print(
+        _logger.info(
             f"Attempting to download '{_url} -> {_out}',"
             " this may take some time..."
         )
@@ -312,8 +160,3 @@ def fetch_geofabrik_data(search_string: str, outdir: str) -> None:
         raise URLError(
             f"ERROR: Failed to retrieve data, invalid constructed URL '{_url}'"
         )
-
-
-if __name__ in "__main__":
-    convert_all_data_from_file()
-
