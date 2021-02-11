@@ -1,6 +1,6 @@
 # Install Instructions
 
-- `brew install postresql`
+- `brew install postgresql`
 
 - `brew install postgis`
 
