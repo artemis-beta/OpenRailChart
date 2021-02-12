@@ -1,0 +1,333 @@
+name: Fetch Data and Build
+on:
+  schedule:
+    - cron: '* * 1 * * '
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Manual run'
+        required: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2.3.1
+
+      - name: Setup Python3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          architecture: 'x64'
+
+      - name: Install Osmium
+        run: sudo apt install osmium-tool
+
+      - name: Install Python Module
+        run: |
+          python3 -m pip install poetry
+          python3 -m poetry install
+      
+      - name: Build UK Signal Data
+        run: |
+          mkdir -p great-britain/england/signals
+          mkdir -p great-britain/scotland/signals
+          mkdir -p great-britain/wales/signals
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value signal --output-dir great-britain/england/signals --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value signal --output-dir great-britain/scotland/signals --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value signal --output-dir great-britain/wales/signals --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Mainline Railways
+        run: |
+          mkdir -p great-britain/england/railways/mainline
+          mkdir -p great-britain/scotland/railways/mainline
+          mkdir -p great-britain/wales/railways/mainline
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value rail --output-dir great-britain/england/railways/mainline --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value rail --output-dir great-britain/scotland/railways/mainline --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value rail --output-dir great-britain/wales/railways/mainline --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+        
+      - name: Build UK Tramways
+        run: |
+          mkdir -p great-britain/england/railways/tramways
+          mkdir -p great-britain/scotland/railways/tramways
+          mkdir -p great-britain/wales/railways/tramways
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value tram --output-dir great-britain/england/railways/tramways --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value tram --output-dir great-britain/scotland/railways/tramways --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value tram --output-dir great-britain/wales/railways/tramways --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Subways
+        run: |
+          mkdir -p great-britain/england/railways/subways
+          mkdir -p great-britain/scotland/railways/subways
+          mkdir -p great-britain/wales/railways/subways
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value subway --output-dir great-britain/england/railways/subways --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value subway --output-dir great-britain/scotland/railways/subways --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value subway --output-dir great-britain/wales/railways/subways --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+        
+      - name: Build UK Narrow Gauge Railways
+        run: |
+          mkdir -p great-britain/england/railways/narrow_gauge
+          mkdir -p great-britain/scotland/railways/narrow_gauge
+          mkdir -p great-britain/wales/railways/narrow_gauge
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value narrow_gauge --output-dir great-britain/england/railways/narrow_gauge --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value narrow_gauge --output-dir great-britain/scotland/railways/narrow_gauge --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value narrow_gauge --output-dir great-britain/wales/railways/narrow_gauge --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Light Railways
+        run: |
+          mkdir -p great-britain/england/railways/light_rail
+          mkdir -p great-britain/scotland/railways/light_rail
+          mkdir -p great-britain/wales/railways/light_rail
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value light_rail --output-dir great-britain/england/railways/light_rail --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value light_rail --output-dir great-britain/scotland/railways/light_rail --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value light_rail --output-dir great-britain/wales/railways/light_rail --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Miniature Railways
+        run: |
+          mkdir -p great-britain/england/railways/miniature
+          mkdir -p great-britain/scotland/railways/miniature
+          mkdir -p great-britain/wales/railways/miniature
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value miniature --output-dir great-britain/england/railways/miniature --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value miniature --output-dir great-britain/scotland/railways/miniature --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value miniature --output-dir great-britain/wales/railways/miniature --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Preserved Railways
+        run: |
+          mkdir -p great-britain/england/railways/preserved
+          mkdir -p great-britain/scotland/railways/preserved
+          mkdir -p great-britain/wales/railways/preserved
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value preserved --output-dir great-britain/england/railways/preserved --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value preserved --output-dir great-britain/scotland/railways/preserved --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value preserved --output-dir great-britain/wales/railways/preserved --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Railway Stations
+        run: |
+          mkdir -p great-britain/england/stations
+          mkdir -p great-britain/scotland/stations
+          mkdir -p great-britain/wales/stations
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value station --output-dir great-britain/england/stations --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value station --output-dir great-britain/scotland/stations --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value station --output-dir great-britain/wales/stations --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Tram Stops
+        run: |
+          mkdir -p great-britain/england/tram_stops
+          mkdir -p great-britain/scotland/tram_stops
+          mkdir -p great-britain/wales/tram_stops
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value tram_stop --output-dir great-britain/england/tram_stops --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value tram_stop --output-dir great-britain/scotland/tram_stops --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value tram_stop --output-dir great-britain/wales/tram_stops --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Build UK Level Crossings
+        run: |
+          mkdir -p great-britain/england/level_crossings
+          mkdir -p great-britain/scotland/level_crossings
+          mkdir -p great-britain/wales/level_crossings
+          python3 -m poetry run orc-data-update "europe/great-britain/england" --value level_crossing --output-dir great-britain/england/level_crossings --processes 10
+          if [ $? -eq 0 ]; then
+            echo "England data extraction successful."
+          else
+            echo "England data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value level_crossing --output-dir great-britain/england/level_crossings --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Scotland data extraction successful."
+          else
+            echo "Scotland data extraction failed."
+            exit 1
+          fi
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value level_crossing --output-dir great-britain/england/level_crossings --processes 10
+          if [ $? -eq 0 ]; then
+            echo "Wales data extraction successful."
+          else
+            echo "Wales data extraction failed."
+            exit 1
+          fi
+
+      - name: Deploy to GH Pages
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: railgeodata
+          folder: great-britain

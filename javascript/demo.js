@@ -1,12 +1,50 @@
-var map = L.map( 'map', {
+map = L.map( 'map', {
     // Centre view at lat=50, lon=-1, zoom=2, defZoom=2
-    center: [52.48073, -1.88505],
-    minZoom: 8,
-    zoom: 15
+    center: [53.48073, -1.88505],
+    minZoom: 7,
+    zoom: 7
 });
 
+var signal_appear_layer = 10;
+
+osm_layers = [];
+
+// For appending GeoJSON data to the global layers object
+function append_json_data(data)
+{
+    osm_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(feature, featureLayer) {
+        featureLayer.bindPopup(feature.properties['ref']);
+        }
+        }));
+    if(map.getZoom() > signal_appear_layer)
+    {
+        osm_layers[osm_layers.length-1].addTo(map);
+    }
+}
+
+map.on('zoom', function(){
+    if(map.getZoom() > signal_appear_layer)
+    {
+        for(layer in osm_layers)
+        {
+            osm_layers[layer].addTo(map);
+        }
+    }
+    else
+    {
+        for(layer in osm_layers)
+        {
+            map.removeLayer(osm_layers[layer]);
+        }
+    }
+}
+
+);
+    
+
 L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>',
     subdomains: ['a','b','c']
 }).addTo( map );
 

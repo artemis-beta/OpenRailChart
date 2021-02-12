@@ -9,6 +9,8 @@ license = "GPL-v3"
 python = "^3.9"
 click = "^7.1.2"
 wget = "^3.2"
+requests = "^2.25.1"
+numpy = "^1.20.1"
 
 [tool.poetry.dev-dependencies]
 
@@ -17,5 +19,6 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-osm2raildat = "openrailchart.extraction:extract_railway_data"
-osmfetch = "openrailchart.extraction:fetch_geofabrik_data"
+osm2raildat = "openrailchart.extraction:ex_cmd"
+osmfetch = "openrailchart.extraction:dl_cmd"
+orc-data-update = "openrailchart.extraction:update_all_for_group"
