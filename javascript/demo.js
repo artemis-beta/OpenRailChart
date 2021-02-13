@@ -39,43 +39,42 @@ function append_signal_json_data(data)
     }));
 }
 
-map.on('zoom', function(){
-    if(map.getZoom() > signal_appear_layer)
-    {
-        for(layer in osm_signal_layers)
-        {
-            if(!map.hasLayer(osm_signal_layers[layer]))
-            {
-                osm_signal_layers[layer].addTo(map);
-            }
+function filterAndAddMarker(marker) {
+    if(!map.hasLayer(marker)) {
+        if (marker._latlng) {
+            if (map.getBounds().contains(marker._latlng)) map.addLayer(marker);
         }
-        for(layer in osm_lc_layers)
-        {
-            if(!map.hasLayer(osm_lc_layers[layer]))
-            {
-                osm_lc_layers[layer].addTo(map);
-            }
-        }
-    }
-    else
-    {
-        for(layer in osm_signal_layers)
-        {
-            map.removeLayer(osm_signal_layers[layer]);
-        }
-        for(layer in osm_lc_layers)
-        {
-            map.removeLayer(osm_lc_layers[layer]);
+        else {
+            if (map.getBounds().contains(marker.getBounds())) map.addLayer(marker);
         }
     }
 }
 
-);
+function removeMarker(marker) {
+    if(map.hasLayer(marker)) {
+        map.removeLayer(marker);
+    }
+
+}
+
+function filterMarkers() {
+    if(map.getZoom() > signal_appear_layer)
+    {
+        Object.values(osm_signal_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
+        Object.values(osm_lc_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
+    }
+    else
+    {
+        Object.values(osm_signal_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_lc_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+    }
+}
+
+map.on('zoomend', filterMarkers);
+map.on('moveend', filterMarkers);
     
 
 L.tileLayer( 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>',
     subdomains: ['a','b','c']
 }).addTo( map );
-
-

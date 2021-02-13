@@ -8,3 +8,4 @@ wget-log
 node_*
 .DS_STORE
 testing/__pycache__/*
+.idea
