@@ -1,6 +1,6 @@
 
 var icon_tram_stop = L.icon({
-    iconUrl: 'icons/tram_stop.png',
-    iconRetinaUrl: 'icons/tram_stop.png',
+    iconUrl: '/OpenRailChart/javascript/type_sets/icons/tram_stop.svg',
+    iconRetinaUrl: '/OpenRailChart/javascript/type_sets/icons/tram_stop.svg',
     iconSize: [15, 15],
 });

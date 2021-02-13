@@ -1,6 +1,6 @@
 
 var icon_turntable = L.icon({
-    iconUrl: 'icons/turntable.png',
-    iconRetinaUrl: 'icons/turntable.png',
+    iconUrl: '/OpenRailChart/javascript/type_sets/icons/turntable.svg',
+    iconRetinaUrl: '/OpenRailChart/javascript/type_sets/icons/turntable.svg',
     iconSize: [18, 18],
 });

@@ -17,17 +17,10 @@
 
    <body>
       <h1>Open Rail Chart v0.1.0</h1>
-
       <div id="map" style="height: 1000px; border: 1px solid #AAA;"></div>
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
       <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
-
-
-      <script type='text/javascript' src='testing/dummy_nodes.js'></script>
-      <script>
-      var signals = dummy;
-      </script>
 
       <!-- Read Icons -->
       <script type="text/javascript" src="javascript/type_sets/station_icon.js"></script>
@@ -42,14 +35,13 @@
       <script type="text/javascript" src="javascript/type_sets/GB/uk_level_crossings.js"></script>
       <script type="text/javascript" src="javascript/type_sets/GB/uk_whr_signals.js"></script>
 
-      <!-- Marker Files -->
-      <!--<script type='text/javascript' src='javascript/orc_layers/crossing_markers.js'></script>
-      <script type='text/javascript' src='javascript/orc_layers/turntable_markers.js'></script>
-      <script type='text/javascript' src='javascript/orc_layers/buffer_markers.js'></script>
-      <script type='text/javascript' src='javascript/orc_layers/rail_routes.js'></script>-->
-      <script type='text/javascript' src='javascript/orc_layers/signal_markers_json.js'></script>
+
+      <!-- Layer Files -->
       <script type='text/javascript' src='javascript/osm_layers/signals.js'></script>
-      <!--<script type='text/javascript' src='javascript/orc_layers/tram_routes.js'></script>-->
+      <script type='text/javascript' src='javascript/osm_layers/level_crossings.js'></script>
+
+      <!-- Utilties -->
+      <script type='text/javascript' src='javascript/utilities/property_strings.js'></script>
 
       <!-- Main -->
       <script type='text/javascript' src='javascript/demo.js'></script>

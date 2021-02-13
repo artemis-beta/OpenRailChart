@@ -1,0 +1,199 @@
+
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/west_yorkshire_latest_railway_level_crossing.geojson", function(data)
+{
+    append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/scotland/level_crossings/scotland_latest_railway_level_crossing.geojson", function(data)
+{
+    append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/greater_london_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/suffolk_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/essex_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/east_sussex_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/tyne_and_wear_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/derbyshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/durham_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/east_yorkshire_with_hull_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/cambridgeshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/wiltshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/hertfordshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/kent_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/northamptonshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/hampshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/cornwall_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/northumberland_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/rutland_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/cumbria_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/merseyside_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/somerset_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/bedfordshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/north_yorkshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/nottinghamshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/lancashire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/surrey_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/lincolnshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/berkshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/oxfordshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/bristol_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/herefordshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/cheshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/shropshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/staffordshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/worcestershire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/buckinghamshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/isle_of_wight_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/leicestershire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/dorset_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/warwickshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/gloucestershire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/south_yorkshire_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/west_midlands_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/west_sussex_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/norfolk_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/devon_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/level_crossings/greater_manchester_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/wales/level_crossings/wales_latest_railway_level_crossing.geojson",function(data){
+        append_lc_json_data(data);
+}
+);
