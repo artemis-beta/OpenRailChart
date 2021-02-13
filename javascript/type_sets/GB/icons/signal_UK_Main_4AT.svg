@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,11 +8,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="50"
-   height="50"
-   viewBox="0 0 13.229167 13.229167"
+   height="70"
+   viewBox="0 0 13.229167 18.520834"
    version="1.1"
    id="svg832"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="signal_UK_Main_4AT.svg"
    inkscape:export-filename="/Users/krizar/Documents/Computing_Lab/Sites/OpenRailChart/icons/GB/signal_UK_Main_4AT.png"
    inkscape:export-xdpi="96"
@@ -28,18 +26,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="39.102756"
-     inkscape:cy="29.099638"
+     inkscape:zoom="3.959798"
+     inkscape:cx="20.977983"
+     inkscape:cy="20.50728"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="1395"
-     inkscape:window-x="158"
-     inkscape:window-y="17"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1386"
+     inkscape:window-height="752"
+     inkscape:window-x="295"
+     inkscape:window-y="138"
+     inkscape:window-maximized="0"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata829">
     <rdf:RDF>
@@ -58,37 +57,38 @@
      id="layer1"
      transform="translate(0,-283.77083)">
     <g
-       id="g894">
+       id="g894"
+       transform="translate(0,4.7625)">
       <path
          sodipodi:nodetypes="ccccccccc"
          inkscape:connector-curvature="0"
          id="path1949"
          d="M 3.900314,296.48647 3.1067045,295.69908 V 281.50619 L 3.900314,280.638 h 5.4255007 l 0.7943423,0.86819 v 14.19289 l -0.7943423,0.78739 z"
-         style="fill:#040404;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.33079296px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#040404;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.330793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <circle
          r="1.4827968"
          cy="293.93484"
          cx="6.7406011"
          id="path1951"
-         style="opacity:1;vector-effect:none;fill:#63000b;fill-opacity:1;stroke:none;stroke-width:4.47083139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;vector-effect:none;fill:#63000b;fill-opacity:1;stroke:none;stroke-width:4.47083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <circle
          r="1.4827968"
          cy="286.74091"
          cx="6.7406011"
          id="path1951-7"
-         style="opacity:1;vector-effect:none;fill:#0a2b00;fill-opacity:1;stroke:none;stroke-width:4.47083187;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;vector-effect:none;fill:#0a2b00;fill-opacity:1;stroke:none;stroke-width:4.47083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <circle
          r="1.4827968"
          cy="290.36194"
          cx="6.7406011"
          id="path1951-7-9"
-         style="opacity:1;vector-effect:none;fill:#ffab00;fill-opacity:1;stroke:none;stroke-width:4.47083187;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;vector-effect:none;fill:#ffab00;fill-opacity:1;stroke:none;stroke-width:4.47083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <circle
          r="1.4827968"
          cy="282.95349"
          cx="6.7406011"
          id="path1951-7-9-7"
-         style="opacity:1;vector-effect:none;fill:#ffab00;fill-opacity:1;stroke:none;stroke-width:4.47083187;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;vector-effect:none;fill:#ffab00;fill-opacity:1;stroke:none;stroke-width:4.47083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
   </g>
 </svg>
