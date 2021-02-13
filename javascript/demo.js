@@ -13,9 +13,9 @@ osm_lc_layers = [];
 // For appending GeoJSON data to the global layers object
 function append_lc_json_data(data)
 {
-    osm_signal_layers.push(L.geoJSON(data ,{
-        onEachFeature: function(feature, featureLayer) {
-        featureLayer.bindPopup(signal_summary_string(feature));
+    osm_lc_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(_, featureLayer) {
+        featureLayer.bindPopup('Level Crossing');
         },
         pointToLayer: function (_, latlng) {
             return L.marker(latlng, {
