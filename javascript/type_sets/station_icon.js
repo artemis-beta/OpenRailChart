@@ -2,7 +2,7 @@
 var icon_station = L.icon({
     iconUrl:  '/OpenRailChart/javascript/type_sets/icons/station.svg',
     iconRetinaUrl:  '/OpenRailChart/javascript/type_sets/icons/station.svg',
-    iconSize: [15, 15],
+    iconSize: [10, 10],
 });
 
 

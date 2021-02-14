@@ -62,3 +62,13 @@ function signal_summary_string(signal_object)
 
     return out_str;
 }
+
+function station_summary_string(station_object)
+{    
+    if('name' in station_object.properties)
+    {
+        out_str = "<b>"+station_object.properties.name+"</b>";
+    }
+
+    return out_str;
+}

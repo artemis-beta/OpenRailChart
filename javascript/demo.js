@@ -5,10 +5,12 @@ map = L.map( 'map', {
     zoom: 7
 });
 
-var signal_appear_layer = 12;
+const signal_appear_layer = 12;
+const station_appear_layer = 9;
 
 osm_signal_layers = [];
 osm_lc_layers = [];
+osm_station_layers = [];
 
 // For appending GeoJSON data to the global layers object
 function append_lc_json_data(data)
@@ -39,6 +41,21 @@ function append_signal_json_data(data)
     }));
 }
 
+function append_station_json_data(data)
+{
+    osm_station_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(feature, featureLayer) {
+        featureLayer.bindPopup(station_summary_string(feature, {minWidth: 100}));
+        },
+        pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {
+                icon: icon_station
+            });
+        }
+    }));
+
+}
+
 function filterAndAddMarker(marker) {
     if(!map.hasLayer(marker)) {
         if (marker._latlng) {
@@ -58,6 +75,14 @@ function removeMarker(marker) {
 }
 
 function filterMarkers() {
+    if(map.getZoom() > station_appear_layer)
+    {
+        Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
+    }
+    else
+    {
+        Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+    }
     if(map.getZoom() > signal_appear_layer)
     {
         Object.values(osm_signal_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
@@ -69,6 +94,8 @@ function filterMarkers() {
         Object.values(osm_lc_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
     }
 }
+
+
 
 map.on('zoomend', filterMarkers);
 map.on('moveend', filterMarkers);
