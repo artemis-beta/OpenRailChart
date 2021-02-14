@@ -1,0 +1,16 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.3969388,51.1808241]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:direction":"forward","railway:signal:main:form":"semaphore"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.3990266,51.1813717]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:direction":"backward","railway:signal:main:form":"semaphore"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1375084,51.0247788]},"properties":{"railway":"signal","operator":"Network Rail"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.3011086,51.1564269]},"properties":{"railway":"signal","operator":"West Somerset Railway Association"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2322027,51.0996582]},"properties":{"railway":"signal","operator":"West Somerset Railway Association"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.231748,51.0992195]},"properties":{"railway":"signal","operator":"West Somerset Railway Association"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1989621,51.0662954]},"properties":{"railway":"signal","operator":"West Somerset Railway"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.3087502,51.1654032]},"properties":{"railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4660355,51.2055428]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"right","railway:signal:direction":"backward","railway:signal:main:form":"semaphore","railway:signal:main:height":"normal","railway:signal:main:function":"exit"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4661089,51.2054787]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:direction":"backward","railway:signal:main:form":"semaphore","railway:signal:main:height":"normal","railway:signal:main:function":"exit"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4635539,51.2044095]},"properties":{"railway":"signal","railway:signal:crossing":"GB-NR:crossing","railway:signal:direction":"backward","railway:signal:main:form":"light"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4029631,51.1819424]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:direction":"backward","railway:signal:main:form":"semaphore"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4017325,51.1817406]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:direction":"forward","railway:signal:main:form":"semaphore"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1464291,51.023743]},"properties":{"railway":"signal","railway:signal:direction":"forward"}}
+]}

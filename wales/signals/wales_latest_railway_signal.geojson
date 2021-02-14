@@ -1,0 +1,12 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.1111056,52.8598665]},"properties":{"railway":"signal","railway:signal:position":"left","railway:signal:direction":"forward","railway:signal:speed_limit:form":"sign","railway:signal:speed_limit:speed":"40 mph|80 mph","railway:signal:speed_limit:height":"normal","railway:signal:speed_limit:speed:freight":"40 mph","railway:signal:speed_limit:speed:passenger":"80 mph"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.1071202,52.8640178]},"properties":{"railway":"signal","railway:signal:position":"right","railway:signal:direction":"backward","railway:signal:speed_limit:form":"sign","railway:signal:speed_limit:speed":"40 mph|80 mph","railway:signal:speed_limit:height":"normal","railway:signal:speed_limit:speed:freight":"40 mph","railway:signal:speed_limit:speed:passenger":"80 mph"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9862509,51.5913897]},"properties":{"ref":"N131","note":"Eastbound on main line","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0315873,51.574058]},"properties":{"ref":"PJ1","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0081914,51.5708933]},"properties":{"ref":"NT961","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0129436,51.5721101]},"properties":{"ref":"PJ16","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6604373,51.5227418]},"properties":{"source":"bing","railway":"signal","railway:signal:position":"bridge","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6604353,51.5227747]},"properties":{"source":"bing","railway":"signal","railway:signal:position":"bridge","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.0395999,51.7025466]},"properties":{"railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.1067563,52.8643988]},"properties":{"railway":"signal","railway:signal:whistle":"yes","railway:signal:position":"left","railway:signal:direction":"backward","railway:signal:whistle:form":"sign"}}
+]}

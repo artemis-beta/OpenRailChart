@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3989393,53.0633341]},"properties":{"railway":"switch"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3992947,53.063364]},"properties":{"railway":"switch"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-1.5793279,53.1506018],[-1.5793761,53.1506378]]},"properties":{"name":"Peak Rail","bridge":"yes","source":"landsat+guess","railway":"preserved"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-1.3992947,53.063364],[-1.3989393,53.0633341]]},"properties":{"railway":"preserved"}}
+]}

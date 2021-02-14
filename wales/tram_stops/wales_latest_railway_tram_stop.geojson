@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.8356111,53.3272646]},"properties":{"name":"Victoria Station","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.8545027,53.3321496]},"properties":{"name":"Summit Station","railway":"tram_stop","wikidata":"Q27957418"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.8443525,53.3307192]},"properties":{"name":"Halfway Station (Upper Section)","source":"survey","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.843492,53.3305794]},"properties":{"name":"Halfway Station (Lower Section)","source":"survey","railway":"tram_stop"}}
+]}

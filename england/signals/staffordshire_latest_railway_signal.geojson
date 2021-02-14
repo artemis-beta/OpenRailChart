@@ -1,0 +1,9 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1505484,52.9921242]},"properties":{"note":"colour light signal","railway":"signal","ref":"FY 33","source":"survey"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2428281,53.069002]},"properties":{"note":"colour light signal","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2331041,53.0615996]},"properties":{"note":"Colour light signal","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2438202,53.0853811]},"properties":{"note":"colour light signal","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6605183,52.7914019]},"properties":{"railway":"signal","railway:signal":"main","railway:signal:catenary_mast":"yes"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6806576,52.8638796]},"properties":{"note":"Semaphore home signal protecting the level crossing for westbound trains.","railway":"signal","railway:signal":"main"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9995682,53.0351815]},"properties":{"source":"survey","railway":"signal"}}
+]}

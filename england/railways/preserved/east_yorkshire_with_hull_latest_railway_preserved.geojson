@@ -1,0 +1,5 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6098115,54.0348323]},"properties":{"name":"Fimber Halt","usage":"tourism","railway":"station"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-0.6104982,54.0354388],[-0.6098115,54.0348323],[-0.6092203,54.0342968],[-0.6083587,54.0334471]]},"properties":{"name":"Yorkshire Wolds Railway","usage":"tourism","railway":"preserved"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-0.6100207,54.0351111],[-0.6097954,54.0349126]]},"properties":{"railway":"preserved"}}
+]}
