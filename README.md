@@ -27,7 +27,7 @@ Data is assembled and built by the contained Python module scripts, the data cre
 
 ## Running
 
-Website is deployed direct to GitHub pages [here](artemis-beta.github.io/OpenRailChart/). For developing locally you can use the Live Server pluging for VSCode however to emulate the subfolder "OpenRailChart" in the file paths you will need to make a soft symlink:
+Website is deployed direct to GitHub pages [here](https://artemis-beta.github.io/OpenRailChart/). For developing locally you can use the Live Server pluging for VSCode however to emulate the subfolder "OpenRailChart" in the file paths you will need to make a soft symlink:
 ```bash
 mkdir -p /path/to/repo/OpenRailChart
 ln -s /path/to/repo/javascript /path/to/repo/OpenRailChart/javascript
