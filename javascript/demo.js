@@ -11,6 +11,7 @@ const station_appear_layer = 9;
 osm_signal_layers = [];
 osm_lc_layers = [];
 osm_station_layers = [];
+osm_tram_stop_layers = [];
 
 // For appending GeoJSON data to the global layers object
 function append_lc_json_data(data)
@@ -47,9 +48,23 @@ function append_station_json_data(data)
         onEachFeature: function(feature, featureLayer) {
         featureLayer.bindPopup(station_summary_string(feature, {minWidth: 100}));
         },
-        pointToLayer: function (feature, latlng) {
+        pointToLayer: function (_, latlng) {
             return L.marker(latlng, {
                 icon: icon_station
+            });
+        }
+    }));
+}
+
+function append_tram_stop_json_data(data)
+{
+    osm_tram_stop_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(feature, featureLayer) {
+        featureLayer.bindPopup(station_summary_string(feature, {minWidth: 100}));
+        },
+        pointToLayer: function (_, latlng) {
+            return L.marker(latlng, {
+                icon: icon_tram_stop
             });
         }
     }));
@@ -78,10 +93,12 @@ function filterMarkers() {
     if(map.getZoom() > station_appear_layer)
     {
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
+        Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
     }
     else
     {
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
     }
     if(map.getZoom() > signal_appear_layer)
     {
