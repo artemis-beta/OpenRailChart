@@ -12,6 +12,7 @@ osm_signal_layers = [];
 osm_lc_layers = [];
 osm_station_layers = [];
 osm_tram_stop_layers = [];
+osm_turntable_layers = [];
 
 // For appending GeoJSON data to the global layers object
 function append_lc_json_data(data)
@@ -19,6 +20,20 @@ function append_lc_json_data(data)
     osm_lc_layers.push(L.geoJSON(data ,{
         onEachFeature: function(_, featureLayer) {
         featureLayer.bindPopup('Level Crossing');
+        },
+        pointToLayer: function (_, latlng) {
+            return L.marker(latlng, {
+                icon: icon_turntable
+            });
+        }
+    }));
+}
+
+function append_turntable_json_data(data)
+{
+    osm_turntable_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(_, featureLayer) {
+        featureLayer.bindPopup('Turntable');
         },
         pointToLayer: function (_, latlng) {
             return L.marker(latlng, {
