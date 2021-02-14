@@ -13,6 +13,7 @@ osm_lc_layers = [];
 osm_station_layers = [];
 osm_tram_stop_layers = [];
 osm_turntable_layers = [];
+osm_buffer_stop_layers = [];
 
 // For appending GeoJSON data to the global layers object
 function append_lc_json_data(data)
@@ -23,7 +24,7 @@ function append_lc_json_data(data)
         },
         pointToLayer: function (_, latlng) {
             return L.marker(latlng, {
-                icon: icon_turntable
+                icon: lc_uk_icon
             });
         }
     }));
@@ -37,7 +38,21 @@ function append_turntable_json_data(data)
         },
         pointToLayer: function (_, latlng) {
             return L.marker(latlng, {
-                icon: lc_uk_icon
+                icon: icon_turntable
+            });
+        }
+    }));
+}
+
+function append_buffer_stop_json_data(data)
+{
+    osm_buffer_stop_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(_, featureLayer) {
+        featureLayer.bindPopup('Buffer Stop');
+        },
+        pointToLayer: function (_, latlng) {
+            return L.marker(latlng, {
+                icon: icon_buffer
             });
         }
     }));
@@ -120,12 +135,16 @@ function filterMarkers() {
     if(map.getZoom() > signal_appear_layer)
     {
         Object.values(osm_signal_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
+        Object.values(osm_buffer_stop_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_lc_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
+        Object.values(osm_turntable_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
     }
     else
     {
         Object.values(osm_signal_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_buffer_stop_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
         Object.values(osm_lc_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_turntable_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
     }
 }
 
