@@ -22,9 +22,17 @@ extract the information needed to build the layers.
 
 A directory of all current icons within this repository is given [here](docs/ORM_Icons.md).
 
+## Data Store
+Data is assembled and built by the contained Python module scripts, the data creation is automated via GitHub Actions then being deployed onto the `railgeodata` branch.
+
 ## Running
 
-Currently I use the `Live Server` plugin for VSCode to preview the project.
+Website is deployed direct to GitHub pages [here](artemis-beta.github.io/OpenRailChart/). For developing locally you can use the Live Server pluging for VSCode however to emulate the subfolder "OpenRailChart" in the file paths you will need to make a soft symlink:
+```bash
+mkdir -p /path/to/repo/OpenRailChart
+ln -s /path/to/repo/javascript /path/to/repo/OpenRailChart/javascript
+```
+make sure to exclude the new `OpenRailChart` folder from your git commits.
 
 ## Issues
 
