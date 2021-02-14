@@ -2,6 +2,11 @@ function signal_summary_string(signal_object)
 {
     type_str = '';
 
+    if('railway:signal:shunting' in signal_object.properties)
+    {
+        type_str = 'Shunt';
+    }
+
     if('railway:signal:form' in signal_object.properties)
     {
         if('railway:signal:distant' in signal_object.properties)

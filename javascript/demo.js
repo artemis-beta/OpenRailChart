@@ -30,7 +30,7 @@ function append_lc_json_data(data)
 
 function append_signal_json_data(data)
 {
-    osm_signal_layers.push(L.geoJSON(data ,{
+    signal_geojson = L.geoJSON(data ,{
         onEachFeature: function(feature, featureLayer) {
         featureLayer.bindPopup(signal_summary_string(feature, {minWidth: 100}));
         },
@@ -39,7 +39,9 @@ function append_signal_json_data(data)
                 icon: check_if_signal_style_uk(feature, uk_mainline_signals)
             });
         }
-    }));
+    });
+    
+    osm_signal_layers.push(signal_geojson);
 }
 
 function append_station_json_data(data)

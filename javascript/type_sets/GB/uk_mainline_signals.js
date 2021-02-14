@@ -4,6 +4,11 @@ const uk_mainline_signals = {
         iconRetinaUrl:  '/OpenRailChart/javascript/type_sets/GB/icons/signal_UK_Main_3AT.svg',
         iconSize: [12.5, 20],
     }),
+    "UK_Shunting_Dwarf" : L.icon({
+        iconUrl:  '/OpenRailChart/javascript/type_sets/GB/icons/signal_UK_Shunting_Dwarf.svg',
+        iconRetinaUrl:  '/OpenRailChart/javascript/type_sets/GB/icons/signal_UK_Shunting_Dwarf.svg',
+        iconSize: [20, 20],
+    }),
     "UK_Main_2AT" : L.icon({
         iconUrl:  '/OpenRailChart/javascript/type_sets/GB/icons/signal_UK_Main_2AT.svg',
         iconRetinaUrl:  '/OpenRailChart/javascript/type_sets/GB/icons/signal_UK_Main_2AT.svg',

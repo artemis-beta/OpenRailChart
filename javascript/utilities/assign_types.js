@@ -2,6 +2,11 @@ function check_if_signal_style_uk(feature, style_list)
 {
     const default_sig = style_list.UK_Main_3AT;
 
+    if('railway:signal:shunting' in feature.properties)
+    {
+        return style_list.UK_Shunting_Dwarf;
+    }
+
     if('railway:signal:form' in feature.properties)
     {
         if('railway:signal:distant' in feature.properties)
