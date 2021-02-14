@@ -29,7 +29,7 @@ function append_signal_json_data(data)
 {
     osm_signal_layers.push(L.geoJSON(data ,{
         onEachFeature: function(feature, featureLayer) {
-        featureLayer.bindPopup(signal_summary_string(feature));
+        featureLayer.bindPopup(signal_summary_string(feature, {minWidth: 100}));
         },
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {

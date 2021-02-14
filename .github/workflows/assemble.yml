@@ -311,14 +311,14 @@ jobs:
             echo "England data extraction failed."
             exit 1
           fi
-          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value level_crossing --output-dir great-britain/england/level_crossings --processes 10
+          python3 -m poetry run orc-data-update "europe/great-britain/scotland" --value level_crossing --output-dir great-britain/scotland/level_crossings --processes 10
           if [ $? -eq 0 ]; then
             echo "Scotland data extraction successful."
           else
             echo "Scotland data extraction failed."
             exit 1
           fi
-          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value level_crossing --output-dir great-britain/england/level_crossings --processes 10
+          python3 -m poetry run orc-data-update "europe/great-britain/wales" --value level_crossing --output-dir great-britain/wales/level_crossings --processes 10
           if [ $? -eq 0 ]; then
             echo "Wales data extraction successful."
           else
