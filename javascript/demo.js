@@ -31,9 +31,9 @@ function append_signal_json_data(data)
         onEachFeature: function(feature, featureLayer) {
         featureLayer.bindPopup(signal_summary_string(feature));
         },
-        pointToLayer: function (_, latlng) {
+        pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {
-                icon: uk_mainline_signals.UK_Main_3AT
+                icon: check_if_signal_style_uk(feature, uk_mainline_signals)
             });
         }
     }));
