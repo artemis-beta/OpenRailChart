@@ -14,6 +14,7 @@ osm_station_layers = [];
 osm_tram_stop_layers = [];
 osm_turntable_layers = [];
 osm_buffer_stop_layers = [];
+osm_rail_layers = [];
 
 // For appending GeoJSON data to the global layers object
 function append_lc_json_data(data)
@@ -84,7 +85,7 @@ function append_signal_json_data(data)
             });
         }
     });
-    
+
     osm_signal_layers.push(signal_geojson);
 }
 
@@ -117,6 +118,30 @@ function append_tram_stop_json_data(data)
 
 }
 
+function append_railway_json_data(data)
+{
+    var myGeoJsonGroup = L.geoJson(data, {style: {color: "#000000"}});
+        myGeoJsonGroup.eachLayer(function (layer) {
+        geo = layer.feature.geometry;
+        coords = geo.coordinates;
+
+        if (geo.type === "LineString") {
+          myGeoJsonGroup.removeLayer(layer);
+          myGeoJsonGroup.addData({
+            type: "Feature",
+            properties: layer.feature.properties,
+            geometry: {
+              type: "LineString",
+              coordinates: coords
+            }
+          })
+        } else {
+          myGeoJsonGroup.removeLayer(layer);
+        }
+    });
+    osm_rail_layers.push(myGeoJsonGroup);
+}
+
 function filterAndAddMarker(marker) {
     if(!map.hasLayer(marker)) {
         if (marker._latlng) {
@@ -135,16 +160,28 @@ function removeMarker(marker) {
 
 }
 
+function addLine(line) {
+    if (map.getBounds().contains(line._latlngs[0])) map.addLayer(line);
+}
+
+function removeLine(line) {
+    if(map.hasLayer(line)) {
+        map.removeLayer(line);
+    }
+}
+
 function filterMarkers() {
     if(map.getZoom() > station_appear_layer)
     {
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
+        Object.values(osm_rail_layers).forEach(layer => Object.values(layer._layers).forEach(addLine));
     }
     else
     {
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
         Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_rail_layers).forEach(layer => Object.values(layer._layers).forEach(removeLine));
     }
     if(map.getZoom() > signal_appear_layer)
     {
@@ -166,7 +203,7 @@ function filterMarkers() {
 
 map.on('zoomend', filterMarkers);
 map.on('moveend', filterMarkers);
-    
+
 
 L.tileLayer( 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>',
