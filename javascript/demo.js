@@ -173,6 +173,9 @@ function removeLine(line) {
 function filterMarkers() {
     if(map.getZoom() > station_appear_layer)
     {
+        Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_rail_layers).forEach(layer => Object.values(layer._layers).forEach(removeLine));
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_rail_layers).forEach(layer => Object.values(layer._layers).forEach(addLine));
@@ -185,6 +188,10 @@ function filterMarkers() {
     }
     if(map.getZoom() > signal_appear_layer)
     {
+        Object.values(osm_signal_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_buffer_stop_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_lc_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
+        Object.values(osm_turntable_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
         Object.values(osm_signal_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_buffer_stop_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_lc_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
