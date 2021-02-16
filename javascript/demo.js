@@ -30,6 +30,20 @@ function append_lc_json_data(data)
     }));
 }
 
+function append_crossing_json_data(data)
+{
+    osm_lc_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(_, featureLayer) {
+        featureLayer.bindPopup('Foot Crossing');
+        },
+        pointToLayer: function (_, latlng) {
+            return L.marker(latlng, {
+                icon: icon_ped_crossing
+            });
+        }
+    }));
+}
+
 function append_turntable_json_data(data)
 {
     osm_turntable_layers.push(L.geoJSON(data ,{
@@ -83,6 +97,20 @@ function append_station_json_data(data)
         pointToLayer: function (_, latlng) {
             return L.marker(latlng, {
                 icon: icon_station
+            });
+        }
+    }));
+}
+
+function append_halt_json_data(data)
+{
+    osm_station_layers.push(L.geoJSON(data ,{
+        onEachFeature: function(feature, featureLayer) {
+        featureLayer.bindPopup(station_summary_string(feature, {minWidth: 100}));
+        },
+        pointToLayer: function (_, latlng) {
+            return L.marker(latlng, {
+                icon: icon_halt
             });
         }
     }));
