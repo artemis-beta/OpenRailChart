@@ -251,7 +251,13 @@ function removeMarker(marker) {
 }
 
 function addLine(line) {
-    if (map.getBounds().contains(line._latlngs[0])) map.addLayer(line);
+    var latLngs = line._latlngs;
+    for(var i = 0; i < latLngs.length; i++) {
+        if (map.getBounds().contains(latLngs[i])) {
+          map.addLayer(line);
+          break;
+        }
+    }
 }
 
 function removeLine(line) {
