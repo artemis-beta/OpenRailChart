@@ -1,0 +1,199 @@
+
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/west_yorkshire_latest_railway_tram.geojson", function(data)
+{
+    append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/scotland/railways/tramways/scotland_latest_railway_tram.geojson", function(data)
+{
+    append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/greater_london_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/suffolk_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/essex_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/east_sussex_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/tyne_and_wear_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/derbyshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/durham_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/east_yorkshire_with_hull_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/cambridgeshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/wiltshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/hertfordshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/kent_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/northamptonshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/hampshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/cornwall_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/northumberland_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/rutland_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/cumbria_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/merseyside_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/somerset_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/bedfordshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/north_yorkshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/nottinghamshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/lancashire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/surrey_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/lincolnshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/berkshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/oxfordshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/bristol_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/herefordshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/cheshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/shropshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/staffordshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/worcestershire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/buckinghamshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/isle_of_wight_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/leicestershire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/dorset_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/warwickshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/gloucestershire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/south_yorkshire_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/west_midlands_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/west_sussex_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/norfolk_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/devon_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/england/railways/tramways/greater_manchester_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);
+$.getJSON("https://raw.githubusercontent.com/artemis-beta/OpenRailChart/railgeodata/wales/railways/tramways/wales_latest_railway_tram.geojson",function(data){
+        append_tram_json_data(data);
+}
+);

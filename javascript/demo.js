@@ -15,6 +15,9 @@ osm_tram_stop_layers = [];
 osm_turntable_layers = [];
 osm_buffer_stop_layers = [];
 osm_rail_layers = [];
+osm_miniature_layers = [];
+osm_preserved_layers = [];
+osm_tram_layers = [];
 
 // For appending GeoJSON data to the global layers object
 function append_lc_json_data(data)
@@ -156,6 +159,79 @@ function append_railway_json_data(data)
     osm_rail_layers.push(myGeoJsonGroup);
 }
 
+function append_miniature_json_data(data)
+{
+    var myGeoJsonGroup = L.geoJson(data, {style: {color: "#4CA54C"}});
+        myGeoJsonGroup.eachLayer(function (layer) {
+        geo = layer.feature.geometry;
+        coords = geo.coordinates;
+
+        if (geo.type === "LineString") {
+          myGeoJsonGroup.removeLayer(layer);
+          myGeoJsonGroup.addData({
+            type: "Feature",
+            properties: layer.feature.properties,
+            geometry: {
+              type: "LineString",
+              coordinates: coords
+            }
+          })
+        } else {
+          myGeoJsonGroup.removeLayer(layer);
+        }
+    });
+    osm_miniature_layers.push(myGeoJsonGroup);
+}
+
+function append_preserved_json_data(data)
+{
+    var myGeoJsonGroup = L.geoJson(data, {style: {color: "#73481D"}});
+        myGeoJsonGroup.eachLayer(function (layer) {
+        geo = layer.feature.geometry;
+        coords = geo.coordinates;
+
+        if (geo.type === "LineString") {
+          myGeoJsonGroup.removeLayer(layer);
+          myGeoJsonGroup.addData({
+            type: "Feature",
+            properties: layer.feature.properties,
+            geometry: {
+              type: "LineString",
+              coordinates: coords
+            }
+          })
+        } else {
+          myGeoJsonGroup.removeLayer(layer);
+        }
+    });
+    osm_preserved_layers.push(myGeoJsonGroup);
+}
+
+function append_tram_json_data(data)
+{
+    var myGeoJsonGroup = L.geoJson(data, {style: {color: "#0000E5"}});
+        myGeoJsonGroup.eachLayer(function (layer) {
+        geo = layer.feature.geometry;
+        coords = geo.coordinates;
+
+        if (geo.type === "LineString") {
+          myGeoJsonGroup.removeLayer(layer);
+          myGeoJsonGroup.addData({
+            type: "Feature",
+            properties: layer.feature.properties,
+            geometry: {
+              type: "LineString",
+              coordinates: coords
+            }
+          })
+        } else {
+          myGeoJsonGroup.removeLayer(layer);
+        }
+    });
+    osm_tram_layers.push(myGeoJsonGroup);
+}
+
+
 function filterAndAddMarker(marker) {
     if(!map.hasLayer(marker)) {
         if (marker._latlng) {
@@ -189,16 +265,21 @@ function filterMarkers() {
     {
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
         Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
-        Object.values(osm_rail_layers).forEach(layer => Object.values(layer._layers).forEach(removeLine));
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(filterAndAddMarker));
         Object.values(osm_rail_layers).forEach(layer => Object.values(layer._layers).forEach(addLine));
+        Object.values(osm_miniature_layers).forEach(layer => Object.values(layer._layers).forEach(addLine));
+        Object.values(osm_preserved_layers).forEach(layer => Object.values(layer._layers).forEach(addLine));
+        Object.values(osm_tram_layers).forEach(layer => Object.values(layer._layers).forEach(addLine));
     }
     else
     {
         Object.values(osm_station_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
         Object.values(osm_tram_stop_layers).forEach(layer => Object.values(layer._layers).forEach(removeMarker));
         Object.values(osm_rail_layers).forEach(layer => Object.values(layer._layers).forEach(removeLine));
+        Object.values(osm_miniature_layers).forEach(layer => Object.values(layer._layers).forEach(removeLine));
+        Object.values(osm_preserved_layers).forEach(layer => Object.values(layer._layers).forEach(removeLine));
+        Object.values(osm_tram_layers).forEach(layer => Object.values(layer._layers).forEach(removeLine));
     }
     if(map.getZoom() > signal_appear_layer)
     {
