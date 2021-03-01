@@ -1,8 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2721227,52.6436626]},"properties":{"railway":"signal"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2649569,52.6528856]},"properties":{"railway":"signal"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2468497,52.676323]},"properties":{"ref":"WS7017","railway":"signal"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2566008,52.6636984]},"properties":{"railway":"signal"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2823726,52.6312975]},"properties":{"railway":"signal"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2900619,52.6219821]},"properties":{"railway":"signal"}}
-]}
