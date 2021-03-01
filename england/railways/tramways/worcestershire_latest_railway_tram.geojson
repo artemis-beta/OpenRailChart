@@ -1,4 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.0020585,52.3836408],[-2.0020699,52.3836716],[-2.002075,52.383698],[-2.0020719,52.3837402],[-2.0020214,52.3841197]]},"properties":{"gauge":"1067","source":"Bing","railway":"tram","heritage":"6","source:1":"http://brummiesguidetobirmingham.blogspot.co.uk/2012/09/rednal-tram-terminus.html","listed_status":"local_grade_B","heritage:operator":"Birmingham City Council"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.0020539999999999,52.3836414],[-2.0020549,52.3836499],[-2.0020536,52.3836696],[-2.0020495,52.383687],[-2.0020407,52.3837143],[-2.0020352,52.3837388],[-2.0019847,52.3841179]]},"properties":{"gauge":"1067","source":"Bing","railway":"tram","heritage":"6","source:1":"http://brummiesguidetobirmingham.blogspot.co.uk/2012/09/rednal-tram-terminus.html","listed_status":"local_grade_B","heritage:operator":"Birmingham City Council"}}
-]}
