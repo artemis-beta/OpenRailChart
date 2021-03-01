@@ -1,4 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9036776,52.1832791]},"properties":{"source":"Bing","railway":"turntable"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6452303,52.655501]},"properties":{"railway":"turntable"}}
-]}

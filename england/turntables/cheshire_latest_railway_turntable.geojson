@@ -1,5 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.435026,53.0928955]},"properties":{"railway":"turntable"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4364087,53.0939429]},"properties":{"railway":"turntable"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4367172,53.0958372]},"properties":{"railway":"turntable"}}
-]}
