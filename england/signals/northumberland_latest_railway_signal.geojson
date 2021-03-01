@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5237014,55.1024031]},"properties":{"railway":"signal","railway:signal:direction":"backward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0941489,54.9732787]},"properties":{"ref":"HE10","railway":"signal","railway:signal:direction":"backward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0941248,54.9733005]},"properties":{"ref":"HE3","railway":"signal","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5245468,55.1035705]},"properties":{"railway":"signal","railway:signal:direction":"forward"}}
+]}

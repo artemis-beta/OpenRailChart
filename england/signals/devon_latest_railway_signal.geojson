@@ -1,0 +1,10 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.1634118,51.1059031]},"properties":{"name":"signal post","railway":"signal","historic":"yes","signal:form":"semaphore"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.513022,50.7329535]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:route":"GB-NR:junction","railway:signal:route:design":"feather"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5339351,50.7262191]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4033042,50.8258133]},"properties":{"railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.0549422,51.0618162]},"properties":{"name":"Fixed distant board 210m33ch","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6403958,50.7821314]},"properties":{"ref":"CN5","name":"CN5 signal","railway":"signal","railway:position":"178.9","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5474306,50.7494719]},"properties":{"ref":"E154","name":"E154 signal","railway":"signal","railway:position":"173.7","railway:signal:direction":"forward","railway:signal:main:form":"light"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5647507,50.4350991]},"properties":{"ref":"PN4","railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:direction":"forward","railway:signal:main:form":"light"}}
+]}
