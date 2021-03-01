@@ -1,3 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.0546647,53.7899323],[-3.0546974,53.7900642],[-3.0547349,53.7902157]]},"properties":{"name":"Avatar Airbender","railway":"light_rail","attraction":"amusement_ride","start_date":"2011"}}
-]}
