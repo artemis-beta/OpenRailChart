@@ -4,7 +4,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2508643,53.4747584]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2681429,53.4397511]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4106842,53.6142058]},"properties":{"source":"survey","railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1546329,53.6112846]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2374818,53.4806028]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2413453,53.4867282]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2375204,53.4805742]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
@@ -49,8 +48,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2281345,53.4164509]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2066862,53.4851289]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.155918,53.6172127]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1542369,53.6106243]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1542681,53.6105245]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2353437,53.4795251]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2353721,53.4795066]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2375778,53.4805318]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
@@ -248,8 +245,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3258666,53.4839678]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3276866,53.4839749]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3276861,53.4840033]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1540318,53.610511]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1540547,53.6104523]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.273987,53.4432596]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2739507,53.4432703]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2500421,53.4330226]},"properties":{"railway":"crossing"}},
@@ -305,5 +300,9 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2828704,53.4693498]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2828712,53.4693122]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.282174,53.4682502]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2822329,53.4682565]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2822329,53.4682565]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0956043,53.5593654]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0956602,53.559384]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.101586,53.5493437]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1015365,53.5493433]},"properties":{"railway":"crossing"}}
 ]}

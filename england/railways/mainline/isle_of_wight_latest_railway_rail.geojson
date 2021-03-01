@@ -94,6 +94,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2152884,50.70522]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2151671,50.7052691]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1566194,50.7239618]},"properties":{"entrance":"yes"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1799316,50.6338528]},"properties":{"public_transport":"stop_position","train":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1392279,50.6778058]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.217739,50.7057259]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1392011,50.67779]},"properties":{"railway":"crossing"}},

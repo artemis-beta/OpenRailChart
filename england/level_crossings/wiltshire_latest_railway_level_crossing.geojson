@@ -50,5 +50,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6350794,51.0424853]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5979739,51.2492012]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2381078,51.2572032]},"properties":{"name":"Masters Crossing","railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2380707,51.2571724]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2380707,51.2571724]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6952175,51.042445]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6952155,51.0424148]},"properties":{"railway":"level_crossing"}}
 ]}

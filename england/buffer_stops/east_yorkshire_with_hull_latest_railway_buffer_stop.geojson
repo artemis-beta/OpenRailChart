@@ -20,8 +20,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.887192,53.6970347]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2055121,54.0827793]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2087268,54.0804925]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1980114,54.083991]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.198356,54.0840522]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1971263,54.0850861]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2103871,54.0793446]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3566371,53.745601]},"properties":{"railway":"buffer_stop"}},

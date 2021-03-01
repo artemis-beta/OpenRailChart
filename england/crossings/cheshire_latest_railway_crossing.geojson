@@ -13,11 +13,11 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.335608,53.3239404]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5293449,53.0596063]},"properties":{"foot":"yes","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5619687,53.0399672]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7716524,53.2254385]},"properties":{"foot":"yes","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7718046,53.2254438]},"properties":{"foot":"yes","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.6777289,53.3252388]},"properties":{"railway":"crossing","crossing":"uncontrolled","crossing:barrier":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.6782629,53.3263799]},"properties":{"railway":"crossing","crossing":"uncontrolled","crossing:barrier":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7844849,53.2256707]},"properties":{"foot":"yes","railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7118119,53.1337739]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7118769,53.1337617]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0544649,53.3556224]},"properties":{"name":"Lyme Park Crossing","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1423871,53.2772085]},"properties":{"source":"OS_OpenData_StreetView","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0853551,53.3609609]},"properties":{"railway":"crossing"}},
@@ -85,8 +85,8 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4455121,53.3814376]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4144371,53.1714358]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8810474,53.1901385]},"properties":{"kerb":"rolled","railway":"crossing","crossing":"uncontrolled","crossing_ref":"zebra"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7660813,53.1417996]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7660602,53.1418163]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7661121,53.1417663]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7660802,53.141796]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4128376,53.2780279]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4127862,53.2780028]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7125319,53.3603983]},"properties":{"railway":"crossing"}},
@@ -128,5 +128,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3422272,53.3168189]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3421795,53.3167921]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0259195,53.3594216]},"properties":{"name":"Red Lane Crossing","railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0259385,53.3593875]},"properties":{"name":"Red Lane Crossing","railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0259385,53.3593875]},"properties":{"name":"Red Lane Crossing","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7118863,53.133792]},"properties":{"railway":"crossing"}}
 ]}

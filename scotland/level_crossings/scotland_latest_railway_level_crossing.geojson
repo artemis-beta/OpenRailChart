@@ -152,6 +152,8 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.6850816,55.9915326]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.5534507,55.5946893]},"properties":{"railway":"level_crossing","crossing:light":"yes","crossing:barrier":"half"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7453222,56.7066195]},"properties":{"access":"private","barrier":"gate","railway":"level_crossing","crossing:barrier":"full"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0037838,55.952698]},"properties":{"crossing:barrier":"no","railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0036535,55.9528366]},"properties":{"crossing:barrier":"no","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1538046,55.9756986]},"properties":{"source":"Bing;survey","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-5.0797882,56.8287867]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.122902,56.2786957]},"properties":{"railway":"level_crossing","crossing:bell":"yes","crossing:light":"yes","crossing:barrier":"gate","crossing:on_demand":"yes"}},

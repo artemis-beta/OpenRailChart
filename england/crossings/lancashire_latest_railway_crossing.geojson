@@ -1,5 +1,4 @@
 {"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.332734,53.9012814]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0370945,53.9004369]},"properties":{"railway":"crossing","crossing":"traffic_signals"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.655288,53.7265332]},"properties":{"lit":"yes","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5728547,53.7353168]},"properties":{"railway":"crossing"}},
@@ -56,7 +55,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9987147,53.7428506]},"properties":{"railway":"crossing","crossing":"uncontrolled","supervised":"no","crossing:light":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8832327,53.6157371]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0161392,53.8153367]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3380897,53.8998711]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3280626,53.9029336]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.6130477,53.728918]},"properties":{"foot":"yes","name":"Jack Green Farm Crossing","railway":"crossing","ref":"FHR 4 4m 0685y"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4023596,53.864691]},"properties":{"railway":"crossing"}},

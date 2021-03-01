@@ -290,6 +290,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3815503,52.6635837]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.3859949,52.2181019]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2661671,52.6512619]},"properties":{"name":"Milton Estates n°1","railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2662115,52.6512701]},"properties":{"name":"Milton Estates n°1","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.1203641,52.6125859]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.3137209,52.3461738]},"properties":{"name":"Tiled House Farm Level Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.2895559,52.3643522]},"properties":{"name":"Blockmore Crossing","railway":"level_crossing"}},

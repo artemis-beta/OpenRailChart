@@ -1,5 +1,5 @@
 {"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[0.217517,52.0192173]},"properties":{"name":"Audley End Miniature Railway","usage":"tourism","railway":"station"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[0.217517,52.0192173]},"properties":{"name":"Audley End Miniature Railway","public_transport":"station","railway":"station","usage":"tourism"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.2181225,52.0162206]},"properties":{"created_by":"JOSM"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.2181711,52.0163318]},"properties":{"created_by":"JOSM"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.2182267,52.0164259]},"properties":{"created_by":"JOSM"}},

@@ -158,5 +158,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9093702,52.7555875]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7503619,52.8716148]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6291354,52.8175652]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6290271,52.817509]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6290271,52.817509]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1147712,52.7515302]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.114713,52.7515275]},"properties":{"railway":"level_crossing"}}
 ]}

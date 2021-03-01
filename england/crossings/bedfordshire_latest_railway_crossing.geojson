@@ -1,7 +1,7 @@
 {"type":"FeatureCollection","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2631457,52.0987208]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4914647,52.106648]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.640494,51.9212232]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.640496,51.9212195]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6406432,51.9216199]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6005943,51.9947713]},"properties":{"horse":"yes","bicycle":"yes","railway":"crossing","crossing":"uncontrolled"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6393257,51.9188937]},"properties":{"source":"survey","railway":"crossing"}},
@@ -23,5 +23,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6406374,51.9216045]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6376922,51.9169268]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5980442,52.0250331]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5979999,52.0250134]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5979999,52.0250134]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6482811,51.9255928]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6432077,51.9239122]},"properties":{"railway":"crossing"}}
 ]}

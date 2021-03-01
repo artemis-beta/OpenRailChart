@@ -2,7 +2,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4247968,51.1739334]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4168671,51.1840501]},"properties":{"access":"agricultural","railway":"crossing","crossing":"uncontrolled"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7014414,51.4887529]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.848002,51.3827283]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.07895,51.0259383]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4103225,51.1829465]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7258225,50.8732153]},"properties":{"railway":"crossing"}},
@@ -128,5 +127,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4608747,51.203207]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1615918,51.0298371]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8194675,51.394234]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8194217,51.3942032]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8194217,51.3942032]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8479755,51.3827297]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8479496,51.3827035]},"properties":{"railway":"crossing"}}
 ]}

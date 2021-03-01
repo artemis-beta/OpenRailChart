@@ -43,7 +43,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1128105,53.6224895]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.11369,53.6176392]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2388845,53.3367509]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1371376,53.540742]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1036614,53.5503585]},"properties":{"name":"Arksey Ings Lane LC","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0542239,53.5741982]},"properties":{"name":"Hatfield Lane LC","source":"Bing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0759618,53.5835146]},"properties":{"name":"Bramwith Road LC","source":"OS OpenData StreetView","railway":"level_crossing"}},
@@ -118,6 +117,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0120512,53.5932072]},"properties":{"source":"Bing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0120882,53.593241]},"properties":{"source":"Bing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4589475,53.3704007]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0878567,53.5552365]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0541692,53.5741874]},"properties":{"name":"Hatfield Lane LC","source":"Bing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0543691,53.574222]},"properties":{"name":"Hatfield Lane LC","source":"Bing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0366045,53.5832673]},"properties":{"name":"The Haggs LC","source":"Bing","railway":"level_crossing"}},
@@ -133,7 +133,9 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1215167,53.5852739]},"properties":{"name":"South Farm No1 LC","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1186767,53.5829079]},"properties":{"name":"South Farm No2 LC","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1393625,53.5343229]},"properties":{"name":"Moat Hills LC","railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0878707,53.5550312]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0835132,53.5833889]},"properties":{"name":"Thorpe Road LC","railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1406509,53.5336917]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1486376,53.6161172]},"properties":{"name":"Askern LC","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4285603,53.3606296]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1036896,53.5503839]},"properties":{"name":"Arksey Ings Lane LC","railway":"level_crossing"}},
@@ -146,7 +148,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6449655,53.5448211]},"properties":{"source":"survey","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1675761,53.3246453]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1392887,53.5343569]},"properties":{"name":"Moat Hills LC","railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1370723,53.5407324]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1333401,53.5512585]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1276684,53.5669758]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1150829,53.6103194]},"properties":{"railway":"level_crossing"}},
@@ -271,5 +272,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3916602,53.3998088]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4340794,53.3641271]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1261112,53.5896205]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1261851,53.5896071]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1261851,53.5896071]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1406095,53.5337082]},"properties":{"railway":"level_crossing"}}
 ]}

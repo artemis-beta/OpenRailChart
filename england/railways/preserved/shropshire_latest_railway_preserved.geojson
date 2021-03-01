@@ -1,7 +1,6 @@
 {"type":"FeatureCollection","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4816724,52.6629753]},"properties":{"name":"Horsehay & Dawley","usage":"tourism","railway":"station"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0482698,52.8630414]},"properties":{"railway":"station_site"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0505531,52.8597541]},"properties":{"railway":"switch"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4825208,52.6628583]},"properties":{"name":"Spring Village","usage":"tourism","railway":"station"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3997913,52.5015334]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4006173,52.5031958]},"properties":{"railway":"buffer_stop"}},
@@ -10,10 +9,13 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4827046,52.6624776]},"properties":{"railway":"level_crossing","crossing:barrier":"full"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4828585,52.6623149]},"properties":{"barrier":"door","entrance":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4800624,52.6717474]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.050473,52.8602593]},"properties":{"railway":"switch"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0502237,52.8606304]},"properties":{"railway":"switch"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0486158,52.8628163]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0504785,52.8601097]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0505405,52.8601036]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0506091,52.8598627]},"properties":{"railway":"switch"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.4800105,52.6717548],[-2.4798236,52.6710428],[-2.4797311,52.6706552],[-2.479707,52.6704333],[-2.479709,52.6701664],[-2.4797351,52.6698311],[-2.4797416,52.6697886],[-2.4797693,52.6696056],[-2.4798095,52.6693727]]},"properties":{"name":"Telford Steam Railway","usage":"tourism","source":"OS_OpenData_StreetView","railway":"preserved"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.0482698,52.8630414],[-3.0485163,52.8628917],[-3.0486158,52.8628163]]},"properties":{"name":"Cambrian Heritage Railway","usage":"tourism","source":"OS_OpenData_StreetView","railway":"preserved","operator":"Cambrian Heritage Railway"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.0482698,52.8630414],[-3.0485163,52.8628917],[-3.0486158,52.8628163],[-3.0486823,52.862772]]},"properties":{"name":"Cambrian Heritage Railway","operator":"Cambrian Heritage Railway","railway":"preserved","ref":"GNQ4","source":"OS_OpenData_StreetView","usage":"tourism"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.4798095,52.6693727],[-2.4800156,52.6685004]]},"properties":{"name":"Telford Steam Railway","layer":"-1","usage":"tourism","source":"OS_OpenData_StreetView","tunnel":"yes","railway":"preserved"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.4814029,52.6626596],[-2.4810257,52.6623611],[-2.4805642,52.6621037],[-2.4800789,52.6618838],[-2.4793601,52.6615758],[-2.4788235,52.6612619],[-2.4783539,52.6608434],[-2.4779801,52.660326],[-2.4778076,52.6598784],[-2.4769805,52.6572079]]},"properties":{"name":"Telford Steam Railway","usage":"tourism","source":"OS_OpenData_StreetView","railway":"preserved"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.4815335,52.6627993],[-2.4814029,52.6626596]]},"properties":{"name":"Telford Steam Railway","usage":"tourism","source":"OS_OpenData_StreetView","railway":"preserved"}},
@@ -29,5 +31,5 @@
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.4822714,52.6638654],[-2.4822378,52.6636544],[-2.4821742,52.6634433],[-2.4821031,52.6632891],[-2.4820133,52.6631416],[-2.4817365,52.66274]]},"properties":{"railway":"preserved"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.4828585,52.6623149],[-2.4827046,52.6624776],[-2.4826669,52.6625264],[-2.4826044,52.6626244],[-2.4825208,52.6628583],[-2.4824622,52.6630508],[-2.4823837,52.6634796],[-2.4822728,52.6640949],[-2.4822444,52.6643708]]},"properties":{"name":"Telford Steam Railway","usage":"tourism","source":"OS_OpenData_StreetView","railway":"preserved"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.4797416,52.6697886],[-2.4797362,52.6700634],[-2.4797372,52.6702169],[-2.4797407,52.6704711],[-2.4797628,52.6706771],[-2.4798372,52.6709685],[-2.4799719,52.6714475],[-2.4800624,52.6717474]]},"properties":{"type":"preserved","railway":"preserved"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.0505531,52.8597541],[-3.0504785,52.8601097],[-3.0504736,52.8601332],[-3.0503871,52.8603125],[-3.0503556,52.8603777],[-3.0501485,52.8606519]]},"properties":{"railway":"preserved","service":"siding"}}
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.0504851,52.8588925],[-3.0505329,52.859019],[-3.0505729,52.8591613],[-3.0506145,52.859351],[-3.0506376,52.8595138],[-3.0506376,52.8596301],[-3.0506268,52.8597575],[-3.0506091,52.8598627],[-3.0505405,52.8601036],[-3.0505204,52.8601473],[-3.050473,52.8602593],[-3.0503841,52.8604065],[-3.0502237,52.8606304]]},"properties":{"railway":"preserved","service":"siding"}}
 ]}

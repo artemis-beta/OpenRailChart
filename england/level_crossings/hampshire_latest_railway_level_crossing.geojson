@@ -70,6 +70,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3914786,50.9142429]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3863332,50.9233963]},"properties":{"name":"St Denys","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.9803736,50.7840855]},"properties":{"railway":"level_crossing","description":"no control gates"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5334105,51.027707]},"properties":{"name":"Kimbridge Level Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3740121,50.8518042]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3564549,50.8332453]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3772504,50.8380704]},"properties":{"railway":"level_crossing"}},
@@ -192,5 +193,9 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5472692,51.0339796]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5509491,51.0346399]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5508781,51.0346739]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5104499,50.8325877]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5104499,50.8325877]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5172602,51.0139883]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5172214,51.0140079]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5222875,51.0182441]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5222461,51.0182617]},"properties":{"railway":"level_crossing"}}
 ]}

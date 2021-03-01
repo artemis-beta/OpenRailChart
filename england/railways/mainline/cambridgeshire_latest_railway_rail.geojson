@@ -754,7 +754,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2468497,52.676323]},"properties":{"ref":"WS7017","railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2566008,52.6636984]},"properties":{"railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2661671,52.6512619]},"properties":{"name":"Milton Estates n°1","railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2662115,52.6512701]},"properties":{"name":"Milton Estates n°1","railway":"leve_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2662115,52.6512701]},"properties":{"name":"Milton Estates n°1","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2752641,52.6397996]},"properties":{"name":"Peakirk Level Crossing","railway":"crossing","crossing":"uncontrolled","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.275306,52.6398194]},"properties":{"name":"Peakirk Level Crossing","railway":"crossing","crossing":"uncontrolled","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2823726,52.6312975]},"properties":{"railway":"signal"}},

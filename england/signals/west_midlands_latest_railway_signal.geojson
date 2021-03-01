@@ -172,5 +172,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9012192,52.4787658]},"properties":{"source":"estimate","railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8092358,52.4850882]},"properties":{"ref":"SB 4604","source":"visual survey","railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9348772,52.4410924]},"properties":{"ref":"SY 52","source":"survey","railway":"signal"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8733766,52.4818025]},"properties":{"ref":"NS129","railway":"signal"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8733766,52.4818025]},"properties":{"ref":"NS129","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8101594,52.4445201]},"properties":{"railway":"signal","source":"estimate"}}
 ]}

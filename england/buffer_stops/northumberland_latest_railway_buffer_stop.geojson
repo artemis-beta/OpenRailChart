@@ -20,6 +20,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5863448,55.1993324]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6755579,55.1630308]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.684092,55.4039905]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0117526,55.7738601]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.009758,55.7757595]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4637778,54.9681839]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4640873,54.9683158]},"properties":{"railway":"buffer_stop"}},

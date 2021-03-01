@@ -4,7 +4,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7686403,50.4828098]},"properties":{"name":"Buckfastleigh","usage":"tourism","railway":"station"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7165571,50.4600228]},"properties":{"railway":"switch"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6856839,50.4394733]},"properties":{"name":"Totnes Riverside","note":"Renamed from 1 January 2017","public_transport":"station","railway":"station","usage":"tourism"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7149082,50.4609185]},"properties":{"name":"Staverton","usage":"tourism","railway":"station"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7149082,50.4609185]},"properties":{"name":"Staverton","operator":"South Devon Railway","public_transport":"station","railway":"station","usage":"tourism"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6827352,50.4575813]},"properties":{"name":"Manor House FP","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5620133,50.4253685]},"properties":{"addr:postcode":"TQ4 6LN","name":"Goodrington Sands Halt","public_transport":"station","railway":"station","request_stop":"yes","usage":"tourism","website":"https://www.dartmouthrailriver.co.uk/","wikidata":"Q5583591"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5569399,50.3961534]},"properties":{"name":"Churston","usage":"tourism","railway":"station","wikidata":"Q5118324"}},
