@@ -1,4 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0165331,53.550687]},"properties":{"name":"Lollipop Express - Kingsway Stop","note":"This is a land train stop","railway":"tram_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0276455,53.5610581]},"properties":{"name":"Lollipop Express - Pier Stop","note":"Tis is a land train stop","railway":"tram_stop"}}
-]}
