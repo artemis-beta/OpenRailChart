@@ -14,6 +14,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7612433,51.5791957]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9957047,51.1374903]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6221328,51.3609394]},"properties":{"name":"Crofton Level Crossing","railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6266438,51.0340683]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.611466,51.3676539]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6115067,51.3676793]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7324883,51.5839606]},"properties":{"railway":"level_crossing"}},
@@ -52,5 +53,9 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2381078,51.2572032]},"properties":{"name":"Masters Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2380707,51.2571724]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6952175,51.042445]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6952155,51.0424148]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6952155,51.0424148]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6143491,51.0379363]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6378264,51.0341445]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6143249,51.0379037]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6221265,51.0340019]},"properties":{"railway":"level_crossing"}}
 ]}
