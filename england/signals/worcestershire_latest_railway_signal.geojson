@@ -1,0 +1,15 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0148102,52.3444235]},"properties":{"note":"Northbound","source":"seen from train","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0258591,52.3369502]},"properties":{"note":"Northbound","source":"seen from train","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0513916,52.3188985]},"properties":{"ref":"BA 7619","source":"visual survey;estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0491839,52.321023]},"properties":{"ref":"BA 7612","source":"visual survey;estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0514318,52.3189953]},"properties":{"ref":"BA 7623","source":"visual survey;estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0497639,52.3203147]},"properties":{"ref":"BA 9616","source":"visual survey;estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.049836,52.3203442]},"properties":{"ref":"BA 3614","source":"visual survey;estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0514035,52.3189847]},"properties":{"ref":"BA 9621","source":"visual survey;estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8452445,52.4002407]},"properties":{"source":"estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8524918,52.3912078]},"properties":{"ref":"TB 1477","source":"survey","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8540019,52.3899719]},"properties":{"source":"visual survey;estimate","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8509207,52.3922333]},"properties":{"ref":"TB 9472","source":"survey","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8509683,52.3922992]},"properties":{"ref":"TB 3470","source":"survey","railway":"signal"}}
+]}

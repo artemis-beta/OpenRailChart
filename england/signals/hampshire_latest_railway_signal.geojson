@@ -1,0 +1,3 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3237882,51.0358249]},"properties":{"railway":"signal","signal:form":"semaphore","signal:form:semaphore":"yes"}}
+]}
