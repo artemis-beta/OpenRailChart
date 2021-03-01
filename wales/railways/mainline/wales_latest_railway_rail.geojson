@@ -1224,6 +1224,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.9239793,52.5621723]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.1124914,51.6708435]},"properties":{"name":"Genwen Junction","railway":"switch"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.1129677,51.670802]},"properties":{"railway":"railway_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.0987291,51.672262]},"properties":{"name":"Bynea","public_transport":"stop_position","railway":"stop","train":"yes","tram":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.091734,51.6730433]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.0917566,51.673068]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.9831456,51.6788687]},"properties":{"railway":"crossing"}},
