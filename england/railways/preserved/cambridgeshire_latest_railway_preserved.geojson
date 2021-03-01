@@ -1,6 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-0.4082342,52.5619969],[-0.4086704,52.5616552]]},"properties":{"name":"Nene Valley Railway","railway":"preserved","start_date":"1847"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-0.0770293,52.173798],[-0.0768335,52.1738638],[-0.0766484,52.1739066],[-0.0764392,52.1739461],[-0.07623,52.1739987],[-0.0760074,52.174048],[-0.0759001,52.1740875],[-0.0754227,52.1742537]]},"properties":{"railway":"preserved"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-0.0770669,52.1738276],[-0.0768094,52.1739082],[-0.0766055,52.1739444],[-0.0764205,52.1739658],[-0.07623,52.1739987]]},"properties":{"railway":"preserved"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-0.0550613,52.2933648],[-0.0544897,52.2931077]]},"properties":{"railway":"preserved"}}
-]}

@@ -1,8 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[0.0652609,50.9351956]},"properties":{"name":"Isfield","usage":"tourism","railway":"station","website":"https://www.lavender-line.co.uk","operator":"The Lavender Line","wikidata":"Q6079829","railway:preserved":"yes"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[0.0713914,50.9440221]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[0.0734656,50.9469752],[0.0713914,50.9440221],[0.0694777,50.9412975],[0.0680008,50.9391605],[0.0652609,50.9351956]]},"properties":{"name":"Lavender Line","railway":"preserved"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[0.0650677,50.9349985],[0.0674924,50.9384865]]},"properties":{"railway":"preserved"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[0.0653332,50.9355067],[0.0659101,50.9363144],[0.0664329,50.9370465]]},"properties":{"railway":"preserved"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[0.0663417,50.93706],[0.0660064,50.9365511],[0.0659367,50.9364093],[0.0659101,50.9363144]]},"properties":{"railway":"preserved"}}
-]}
