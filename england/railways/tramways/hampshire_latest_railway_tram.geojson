@@ -1,3 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-1.1085964,50.7917659],[-1.1086052,50.7917892],[-1.1087928,50.7922996],[-1.108884,50.7925705]]},"properties":{"ref":"A3","name":"Broad Street","source":"OS OpenData StreetView","highway":"primary","railway":"tram","surface":"cobblestone","maxspeed":"20 mph","maxweight":"7.5"}}
-]}
