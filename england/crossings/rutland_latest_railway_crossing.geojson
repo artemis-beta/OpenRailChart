@@ -1,0 +1,11 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4019439,52.6733544]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8380942,52.7595262]},"properties":{"source":"OS OpenData StreetView","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.743858,52.7279338]},"properties":{"source":"OS OpenData StreetView","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.7438077,52.7279604]},"properties":{"source":"OS OpenData StreetView","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8380854,52.7595664]},"properties":{"source":"OS OpenData StreetView","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6896303,52.7147874]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6896507,52.7147796]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4984847,52.6396628]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4984819,52.6396223]},"properties":{"railway":"crossing"}}
+]}
