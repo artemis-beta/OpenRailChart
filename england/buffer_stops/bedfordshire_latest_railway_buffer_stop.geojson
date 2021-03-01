@@ -1,5 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.482264,52.1388896]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4768849,52.1304216]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.280331,52.1239103]},"properties":{"railway":"buffer_stop"}}
-]}
