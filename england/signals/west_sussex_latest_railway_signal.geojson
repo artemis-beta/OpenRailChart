@@ -1,0 +1,11 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.105072,51.0060634]},"properties":{"railway":"signal","railway:signal:direction":"both"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1048853,51.006049]},"properties":{"railway":"signal","railway:signal:direction":"both"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1056788,51.0039394]},"properties":{"railway":"signal","railway:signal:direction":"both"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1058213,51.0039577]},"properties":{"railway":"signal","railway:signal:direction":"both"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1556043,50.8471809]},"properties":{"ref":"T422","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1417657,50.831527]},"properties":{"ref":"T446","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.141811,50.8315185]},"properties":{"ref":"T444","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1418968,50.8315036]},"properties":{"ref":"T442","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1419415,50.8314959]},"properties":{"ref":"T440","railway":"signal"}}
+]}

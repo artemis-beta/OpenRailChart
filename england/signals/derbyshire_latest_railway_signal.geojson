@@ -1,0 +1,23 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5940299,53.1603273]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6074688,53.1708439]},"properties":{"railway":"signal","railway:signal:distant":"yes","railway:signal:direction":"both"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5059583,52.8796381]},"properties":{"note":"Colour light signal northbound","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5576291,52.8574595]},"properties":{"note":"Colour light signal eastbound","railway":"signal","source":"survey"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6409947,52.8584019]},"properties":{"note":"Colour light signal eastbound","railway":"signal","source":"survey"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4924718,52.8866379]},"properties":{"note":"Colour light signal northbound","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6806576,52.8638796]},"properties":{"note":"Semaphore home signal protecting the level crossing for westbound trains.","railway":"signal","railway:signal":"main"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.578484,52.7569328]},"properties":{"note":"Westbound 2 aspect colour light","railway":"signal","railway:signal":"main","ref":"DY122"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6018213,53.1650747]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5659354,53.1408451]},"properties":{"railway":"signal","railway:signal:shunting":"yes","railway:signal:direction":"backward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5677861,53.1414294]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5677619,53.1414597]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5685425,53.1417645]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:direction":"backward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5653913,53.1406623]},"properties":{"railway":"signal","railway:signal:shunting":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5663928,53.1409595]},"properties":{"railway":"signal","railway:signal:shunting":"yes","railway:signal:direction":"backward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5718412,53.1440376]},"properties":{"railway":"signal","railway:signal:distant":"yes","railway:signal:direction":"backward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5886689,53.1570243]},"properties":{"railway":"signal","railway:signal:distant":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5927215,53.1595334]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:distant":"yes","railway:signal:shunting":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5939322,53.1602334]},"properties":{"railway":"signal","railway:signal:shunting":"yes","railway:signal:direction":"backward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5960612,53.1614736]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:direction":"forward"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.60076,53.164336]},"properties":{"railway":"signal","railway:signal:main":"yes","railway:signal:direction":"backward"}}
+]}
