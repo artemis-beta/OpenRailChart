@@ -1,0 +1,9 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2561429,53.477165]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2581092,53.4777549]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.2560218,53.4773141],[-2.2561368,53.4773609],[-2.2562747,53.4774061],[-2.2563829,53.4774374],[-2.256523,53.4774733],[-2.2566608,53.4775034],[-2.257904,53.4777244],[-2.2580424,53.4777487],[-2.2581092,53.4777549],[-2.2581343,53.4777573]]},"properties":{"name":"Liverpool & Manchester Railway","layer":"1","bridge":"viaduct","railway":"preserved"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.2561555,53.4771075],[-2.2558886,53.4770761],[-2.2556822,53.4770453],[-2.2548533,53.4769117]]},"properties":{"name":"Liverpool & Manchester Railway","railway":"preserved"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.2569138,53.4771442],[-2.2566579,53.4771411],[-2.2564951,53.4771451],[-2.2563424,53.4771518],[-2.2561429,53.477165]]},"properties":{"layer":"1","bridge":"viaduct","railway":"preserved"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.256969,53.4771251],[-2.2566579,53.4770964],[-2.2564835,53.4770788],[-2.2563521,53.4770661],[-2.2561992,53.4770485],[-2.2561244,53.4770367],[-2.2555314,53.4769283]]},"properties":{"name":"Liverpool & Manchester Railway","railway":"preserved"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.2574412,53.4771868],[-2.257179,53.4771515],[-2.256969,53.4771251],[-2.2567464,53.4770964],[-2.2564513,53.4770485],[-2.2561435,53.4769972],[-2.2555601,53.4768915]]},"properties":{"name":"Liverpool & Manchester Railway","railway":"preserved"}}
+]}
