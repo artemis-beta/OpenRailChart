@@ -1,4 +1,0 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.928681,51.8642308]},"properties":{"railway":"signal","railway:signal:form":"semaphore"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.9278489,51.8640008]},"properties":{"railway":"signal","railway:signal:form":"semaphore"}}
-]}

@@ -1,0 +1,8 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.978027,53.4049927]},"properties":{"highway":"traffic_signals","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0141339,53.3966544]},"properties":{"name":"Shore Road","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0139608,53.3965505]},"properties":{"name":"Shore Road","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0100136,53.3952446]},"properties":{"name":"Woodside Ferry","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0100689,53.395231]},"properties":{"name":"Woodside Ferry","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0203375,53.3966043]},"properties":{"source":"guess work","railway":"tram_stop"}}
+]}

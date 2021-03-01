@@ -1,0 +1,8 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6594648,54.882216]},"properties":{"railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6603538,54.8893143]},"properties":{"name":"Town","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6643273,54.8842258]},"properties":{"name":"Home Farm","railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6575606,54.8846131]},"properties":{"railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6575139,54.8846041]},"properties":{"railway":"tram_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6622566,54.8890043]},"properties":{"railway":"tram_stop"}}
+]}
