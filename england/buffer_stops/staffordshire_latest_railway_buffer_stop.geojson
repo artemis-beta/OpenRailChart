@@ -110,5 +110,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0370349,52.9991127]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9050786,52.7538672]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2222809,53.0514011]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7064795,52.7508257]},"properties":{"railway":"buffer_stop"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7064795,52.7508257]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0229954,52.6752456]},"properties":{"railway":"buffer_stop"}}
 ]}

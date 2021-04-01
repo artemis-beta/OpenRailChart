@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","features":[
-
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8760899,51.9438432]},"properties":{"railway":"buffer_stop"}}
 ]}

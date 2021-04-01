@@ -106,5 +106,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4105489,53.8347007]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.410488,53.834701]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4107008,53.8368391]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4106397,53.8368387]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4106397,53.8368387]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9120264,53.5312693]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9120827,53.5312826]},"properties":{"railway":"crossing"}}
 ]}

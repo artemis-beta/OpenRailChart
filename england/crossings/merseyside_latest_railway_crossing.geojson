@@ -13,5 +13,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0673846,53.5446041]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8166925,53.5097324]},"properties":{"bicycle":"no","crossing":"uncontrolled","crossing:barrier":"no","crossing:bell":"no","crossing:light":"no","horse":"no","railway":"crossing","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0659317,53.3527963]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0658773,53.3527911]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0658773,53.3527911]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9120264,53.5312693]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9120827,53.5312826]},"properties":{"railway":"crossing"}}
 ]}

@@ -25,5 +25,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5980442,52.0250331]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5979999,52.0250134]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6482811,51.9255928]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6432077,51.9239122]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6432077,51.9239122]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5309013,52.0556638]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5309436,52.0556956]},"properties":{"railway":"crossing"}}
 ]}

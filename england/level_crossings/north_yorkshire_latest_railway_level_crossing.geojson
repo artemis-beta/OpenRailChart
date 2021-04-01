@@ -427,7 +427,11 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2461301,54.5806848]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2461755,54.5807302]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2397236,54.5859237]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4106616,54.2986335]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4106616,54.2986336]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.7765899,54.2326301]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.7785697,54.2371829]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.7785697,54.2371829]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0122119,53.9177052]},"properties":{"crossing:activation":"remote","crossing:barrier":"double_half","crossing:bell":"yes","crossing:light":"yes","name":"Cononley","railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0121455,53.9177042]},"properties":{"crossing:activation":"remote","crossing:barrier":"double_half","crossing:bell":"yes","crossing:light":"yes","name":"Cononley","railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2388041,53.8196838]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2388058,53.8196369]},"properties":{"railway":"level_crossing"}}
 ]}

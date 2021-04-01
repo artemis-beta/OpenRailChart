@@ -3,6 +3,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.2559258,50.8200809]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.0331179,50.8184213]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.7269141,50.9500646]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[0.0714965,50.7845312]},"properties":{"crossing":"uncontrolled","horse":"no","name":"Tidemills;Tidemills Carpark","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0652718,50.9299826]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0717137,50.9318164]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1147365,50.9529465]},"properties":{"railway":"crossing"}},

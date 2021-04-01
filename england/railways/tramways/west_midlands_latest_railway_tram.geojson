@@ -30,7 +30,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0085783,52.5253481]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0997849,52.5734571]},"properties":{"railway":"tram_level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1008189,52.5739954]},"properties":{"railway":"tram_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1245244,52.5839964]},"properties":{"name":"Wolverhampton St Georges","NFC:BEARING":"0","NFC:UID":"043ACF294B2580","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1245244,52.5839964]},"properties":{"NFC:BEARING":"0","NFC:UID":"043ACF294B2580","name":"Wolverhampton St Georges","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0242968,52.5477528]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0242698,52.5477903]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0242509,52.5478227]},"properties":{"railway":"buffer_stop"}},

@@ -59,7 +59,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6771021,54.910044]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6770659,54.9100898]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8018466,54.690647]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7673115,54.6761296]},"properties":{"name":"Witton-le-Wear","train":"yes","usage":"tourism","network":"Weardale Railway","railway":"station","operator":"Weardale Railway","public_transport":"station"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7673115,54.6761296]},"properties":{"name":"Witton-le-Wear","network":"Weardale Railway","operator":"Weardale Railway","public_transport":"station","railway":"station","train":"yes","usage":"tourism"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9287346,54.7257903]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9164457,54.7263134]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8769617,54.7262233]},"properties":{"railway":"crossing"}},

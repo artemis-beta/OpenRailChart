@@ -53,5 +53,6 @@
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.2937156,54.3904178],[-3.2938654,54.3903938],[-3.2941645,54.3903784],[-3.2944586,54.3904031],[-3.2947417,54.3904635],[-3.2950159,54.3905594],[-3.2952459,54.3906938],[-3.2953647,54.3907712]]},"properties":{"name":"Ravenglass and Eskdale Railway","gauge":"381","usage":"tourism","source":"OS7","cutting":"yes","railway":"narrow_gauge","electrified":"no"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.4085477,54.3554609],[-3.4081784,54.355094]]},"properties":{"railway":"narrow_gauge"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.4085477,54.3554609],[-3.4086489,54.3555624]]},"properties":{"electrified":"no","gauge":"381","railway":"narrow_gauge","usage":"tourism"}},
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.4081784,54.355094],[-3.4072455,54.3540002]]},"properties":{"railway":"narrow_gauge"}}
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-3.4081784,54.355094],[-3.4072455,54.3540002]]},"properties":{"railway":"narrow_gauge"}},
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.9399068,54.8888753],[-2.9394247,54.8887613],[-2.9393095,54.8889293]]},"properties":{"gauge":"610","name":"Remains of industrial narrow gauge railway","railway":"narrow_gauge"}}
 ]}

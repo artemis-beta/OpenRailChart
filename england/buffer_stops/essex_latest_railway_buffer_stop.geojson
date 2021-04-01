@@ -79,7 +79,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.6421919,51.541245]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.634847,51.5412469]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.5132453,51.5601857]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[0.5079889,51.5604232]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[0.5079864,51.5604082]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.3211996,51.4765284]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.3387669,51.4704053]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[0.2370898,51.4804467]},"properties":{"railway":"buffer_stop"}},

@@ -3,9 +3,11 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8493548,52.3613584]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8381098,52.3393013]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6508096,52.5210154]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7906042,52.1115515]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6965448,52.5649952]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6974745,52.564449]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6974871,52.5643553]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7032153,52.2711829]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2734436,52.3786656]},"properties":{"name":"Tank Crossing","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8001273,52.3121932]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8120666,52.3164248]},"properties":{"railway":"crossing"}},
@@ -23,5 +25,9 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7854891,52.2756597]},"properties":{"railway":"crossing","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7405675,52.2498443]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6507915,52.521043]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5166728,52.4527979]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3957715,52.1758241]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7146786,52.2626558]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5166728,52.4527979]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.386908,52.1754774]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4193195,52.176138]},"properties":{"railway":"crossing"}}
 ]}

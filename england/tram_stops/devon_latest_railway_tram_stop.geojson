@@ -1,5 +1,5 @@
 {"type":"FeatureCollection","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0620712,50.7414785]},"properties":{"name":"Colyton Terminus","network":"Seaton Tramway","operator":"Seaton Tramway","public_transport":"stop_position","railway":"tram_stop","tram":"yes","usage":"tourism"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0579681,50.7287526]},"properties":{"name":"Colyford","network":"Seaton Tramway","operator":"Seaton Tramway","railway":"tram_stop","usage":"tourism"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.067728,50.7050626]},"properties":{"name":"Seaton Station","network":"Seaton Tramway","operator":"Seaton Tramway","public_transport":"stop_position","railway":"tram_stop","tram":"yes","usage":"tourism","wikidata":"Q2262420","wikipedia":"en:Seaton Tramway"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0677307,50.7050906]},"properties":{"name":"Seaton Station","network":"Seaton Tramway","operator":"Seaton Tramway","public_transport":"stop_position","railway":"tram_stop","tram":"yes","usage":"tourism","wikidata":"Q2262420","wikipedia":"en:Seaton Tramway"}}
 ]}

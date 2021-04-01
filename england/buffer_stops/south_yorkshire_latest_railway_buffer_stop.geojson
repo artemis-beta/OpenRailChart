@@ -158,5 +158,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1300761,53.5083387]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1302005,53.5083316]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1397252,53.5155433]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3925623,53.4003672]},"properties":{"railway":"buffer_stop"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3925623,53.4003672]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3555965,53.3832456]},"properties":{"railway":"buffer_stop"}}
 ]}

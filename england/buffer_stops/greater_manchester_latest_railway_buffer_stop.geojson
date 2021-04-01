@@ -63,7 +63,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2976627,53.4720174]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2305873,53.4772216]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1638909,53.4044872]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3476466,53.38695]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3476514,53.3869412]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3042805,53.5885407]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3042322,53.5885296]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2999136,53.5934874]},"properties":{"railway":"buffer_stop"}},
@@ -122,5 +122,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2303403,53.4776059]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2303618,53.4775748]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2309382,53.4769022]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2309525,53.4768787]},"properties":{"railway":"buffer_stop"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2309525,53.4768787]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.193663,53.5027335]},"properties":{"railway":"buffer_stop"}}
 ]}

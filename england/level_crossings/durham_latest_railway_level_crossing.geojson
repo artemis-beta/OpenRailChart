@@ -45,6 +45,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8205337,54.7077601]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0071618,54.7450074]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2088943,54.6058811]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2153659,54.6462683]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2006536,54.606381]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.176141,54.6092511]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1692401,54.6123267]},"properties":{"railway":"level_crossing"}},
@@ -76,6 +77,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9287346,54.7257903]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9164457,54.7263134]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1662107,54.6162187]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2165176,54.6456565]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4717261,54.6225669]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4575973,54.6113995]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4575334,54.6114117]},"properties":{"railway":"level_crossing"}},
@@ -88,5 +90,8 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2461301,54.5806848]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2397236,54.5859237]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5330952,54.7156809]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5749419,54.573717]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.21191,54.6515885]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2172612,54.6432659]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-1.758045,54.6796608],[-1.75802,54.6796161],[-1.7580018,54.6795836]]},"properties":{"foot":"yes","source":"survey","highway":"cycleway","railway":"level_crossing","designation":"public_footpath"}}
 ]}

@@ -7,5 +7,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1417657,50.831527]},"properties":{"ref":"T446","railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.141811,50.8315185]},"properties":{"ref":"T444","railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1418968,50.8315036]},"properties":{"ref":"T442","railway":"signal"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1419415,50.8314959]},"properties":{"ref":"T440","railway":"signal"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1419415,50.8314959]},"properties":{"ref":"T440","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3238324,51.0840202]},"properties":{"railway":"signal"}}
 ]}

@@ -82,7 +82,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3356676,53.3239534]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0544745,53.3555869]},"properties":{"name":"Lyme Park Crossing","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.6264913,53.3834034]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4455121,53.3814376]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.4144371,53.1714358]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8810474,53.1901385]},"properties":{"kerb":"rolled","railway":"crossing","crossing":"uncontrolled","crossing_ref":"zebra"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7661121,53.1417663]},"properties":{"railway":"crossing"}},

@@ -65,7 +65,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7151545,50.4609196]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7145533,50.4612309]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6977141,50.4613555]},"properties":{"name":"Staverton Church Farm UWC","railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7025233,50.4612092]},"properties":{"name":"Nappers Halt","note":"Very limited services: special events only","usage":"tourism","railway":"station"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7025233,50.4612092]},"properties":{"name":"Nappers Halt","note":"Very limited services: special events only","railway":"station","usage":"tourism"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.0793475,50.408758]},"properties":{"historic":"station_site","name":"Plym Bridge","old_name":"Plym Bridge (Halt)","public_transport":"station","railway":"station","start_date":"30 December 2012","usage":"tourism","wikipedia":"en:Plym Valley Railway"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.571984,50.3491525]},"properties":{"railway":"switch"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5723529,50.3489694]},"properties":{"railway":"switch"}},

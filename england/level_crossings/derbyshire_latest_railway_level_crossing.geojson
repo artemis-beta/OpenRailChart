@@ -63,8 +63,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2654354,52.8962843]},"properties":{"name":"Long Eaton Town Level Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2906376,52.9699067]},"properties":{"railway":"level_crossing","description":"Users must call signal box before use if crossing with a vehicle or animals","crossing:bell":"no","crossing:light":"no","crossing:barrier":"yes","crossing:activation":"user"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2904688,52.9699352]},"properties":{"railway":"level_crossing","description":"Users must call signal box before use if crossing with a vehicle or animals","crossing:bell":"no","crossing:light":"no","crossing:barrier":"yes","crossing:activation":"user"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3394691,53.2613236]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3394018,53.2613802]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5757699,53.0655938]},"properties":{"railway":"level_crossing","crossing:bell":"no","crossing:light":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2801693,53.0860013]},"properties":{"source":"survey","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8562371,53.2766131]},"properties":{"railway":"level_crossing"}},
@@ -170,5 +168,8 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7516537,53.3400404]},"properties":{"railway":"level_crossing","source":"maxar"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7516376,53.3400492]},"properties":{"railway":"level_crossing","source":"maxar"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7503619,52.8716148]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6088563,52.768769]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6088563,52.768769]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6082774,52.7675234]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6082449,52.7675492]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3249337,53.0252076]},"properties":{"railway":"level_crossing"}}
 ]}

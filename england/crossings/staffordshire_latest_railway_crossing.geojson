@@ -64,7 +64,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1546409,52.9083337]},"properties":{"name":"Stone Station Level Crossing","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1546815,52.9083058]},"properties":{"name":"Stone Station Level Crossing","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0487017,53.0790028]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9607148,53.0177835]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9607175,53.0177912]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6427385,52.8583358]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6427445,52.8582994]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7168633,52.868581]},"properties":{"railway":"crossing"}},

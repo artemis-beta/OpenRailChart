@@ -50,7 +50,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0566214,52.9844519]},"properties":{"name":"Creswell Ford Level Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9202446,52.8956303]},"properties":{"name":"Bramshall Level Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0263285,52.9505629]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0129389,52.9514919]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0129548,52.9514962]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1525397,52.907234]},"properties":{"name":"Meaford Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0380507,52.9512235]},"properties":{"name":"Cresswell Level Crossing","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0631522,52.9649762]},"properties":{"name":"Stallington Crossing","railway":"level_crossing"}},

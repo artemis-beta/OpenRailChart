@@ -17,6 +17,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3283818,51.2443691]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.7015265,51.4883107]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0789604,51.0259808]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8333208,51.3886806]},"properties":{"crossing":"uncontrolled","name":"Gas Lane Crossing","railway":"crossing","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.913116,51.0506584]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9130981,51.050691]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2478078,50.9779322]},"properties":{"railway":"crossing"}},
@@ -128,6 +129,9 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1615918,51.0298371]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8194675,51.394234]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8194217,51.3942032]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8479755,51.3827297]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8479496,51.3827035]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8479755,51.3827297]},"properties":{"crossing":"uncontroller","railway":"crossing","supervised":"no"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8479496,51.3827035]},"properties":{"crossing":"uncontroller","railway":"crossing","supervised":"no"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8332947,51.3886565]},"properties":{"crossing":"uncontrolled","name":"Gas Lane Crossing","railway":"crossing","supervised":"no"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8332666,51.3886313]},"properties":{"crossing":"uncontrolled","name":"Gas Lane Crossing","railway":"crossing","supervised":"no"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8332387,51.3886036]},"properties":{"crossing":"uncontrolled","name":"Gas Lane Crossing","railway":"crossing","supervised":"no"}}
 ]}

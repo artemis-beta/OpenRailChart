@@ -21,7 +21,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1183636,51.8455123]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8825959,51.5115802]},"properties":{"crossing:barrier":"yes","crossing:light":"yes","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1259006,51.8686047]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0903554,51.8524878]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0903554,51.8524878]},"properties":{"crossing:barrier":"no","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1383211,51.5917861]},"properties":{"railway":"level_crossing","crossing:barrier":"full"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5646573,51.8672188]},"properties":{"crossing:activation":"local","crossing:barrier":"double_half","crossing:light":"yes","crossing:supervision":"attendant","name":"Ascott-under-Wychwood","railway":"level_crossing","railway:position":"80.45"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1470362,51.5865303]},"properties":{"railway":"level_crossing"}},
