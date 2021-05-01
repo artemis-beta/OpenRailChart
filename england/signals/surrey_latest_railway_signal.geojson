@@ -1,5 +1,5 @@
 {"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2686554,51.3347896]},"properties":{"ref":"WI0466","railway":"signal"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2686514,51.3347804]},"properties":{"railway":"signal","ref":"WI0466"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5176547,51.430396]},"properties":{"position":"left","railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5240433,51.4316069]},"properties":{"position":"left","railway":"signal"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1708564,51.2278581]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:main:design":"combined","railway:signal:main:form":"light","railway:signal:main:states":"red;green;yellow;double_yellow"}},

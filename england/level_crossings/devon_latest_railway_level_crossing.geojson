@@ -114,5 +114,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.8741635,50.8874583]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.9505056,50.9571484]},"properties":{"name":"Portsmouth Arms #1 LC (UWC) 200m38ch","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.9835295,50.9995008]},"properties":{"name":"Little Weir Farm #1 Foot Crossing (204m70ch)","railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.571569,50.7726199]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.571569,50.7726199]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.8607425,50.7844083]},"properties":{"railway":"level_crossing"}}
 ]}

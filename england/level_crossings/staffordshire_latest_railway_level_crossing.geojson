@@ -123,7 +123,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6462355,52.6549893]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6462007,52.6549349]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6462619,52.6550497]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6276033,52.8165778]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7022435,52.7566698]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7022824,52.7566942]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7021891,52.7566356]},"properties":{"railway":"level_crossing"}},

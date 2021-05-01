@@ -29,5 +29,11 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.740249,52.0054873]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.735638,51.9942264]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.7355422,51.9934064]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8591735,51.7255043]},"properties":{"railway":"buffer_stop"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8591735,51.7255043]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5639673,51.592676]},"properties":{"railway":"buffer_stop","source":"Bing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4855497,51.505733]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.486407,51.504291]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4871135,51.5031463]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4870694,51.5031354]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.486833,51.504337]},"properties":{"railway":"buffer_stop"}}
 ]}

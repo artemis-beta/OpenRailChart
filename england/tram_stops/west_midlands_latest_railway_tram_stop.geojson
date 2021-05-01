@@ -46,7 +46,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9523323,52.5020909]},"properties":{"name":"Handsworth, Booth Street","public_transport":"stop_position","railway":"tram_stop","source":"NPE","tram":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7263736,52.450465]},"properties":{"name":"Air Rail Link","rail":"funicular","tram":"yes","level":"1","source":"survey","railway":"tram_stop","funicular":"yes","public_transport":"stop_position"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9033291,52.479317]},"properties":{"name":"Town Hall","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9083552,52.4786921]},"properties":{"name":"Library","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9083473,52.478688]},"properties":{"name":"Library","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9083705,52.478714]},"properties":{"name":"Library","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0809134,52.5679598]},"properties":{"name":"The Crescent","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0746807,52.5653811]},"properties":{"name":"Bilston Central","public_transport":"stop_position","railway":"tram_stop","tram":"yes"}},

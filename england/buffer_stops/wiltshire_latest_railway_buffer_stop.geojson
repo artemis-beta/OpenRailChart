@@ -12,7 +12,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8548855,51.3353435]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8548822,51.3353784]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8490671,51.3349679]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6019762,51.3760549]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6020828,51.3759647]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1945351,51.2716235]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1948758,51.2715052]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.205959,51.2620433]},"properties":{"railway":"buffer_stop"}}

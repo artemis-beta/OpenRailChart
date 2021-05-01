@@ -44,5 +44,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.9296927,51.8642339]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0992858,51.8438368]},"properties":{"railway":"level_crossing","source":"maxar"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8068895,51.7767194]},"properties":{"railway":"level_crossing","source":"maxar"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8061299,51.7746705]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8061299,51.7746705]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4856482,51.5056722]},"properties":{"railway":"level_crossing"}}
 ]}

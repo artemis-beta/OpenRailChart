@@ -1,5 +1,6 @@
 {"type":"FeatureCollection","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2254364,53.7030441]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7642659,53.5941078]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4634239,53.6641655]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.7129052,53.5910481]},"properties":{"railway":"crossing","supervised":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8068998,53.8385298]},"properties":{"railway":"crossing"}},
@@ -13,13 +14,15 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2337698,53.7043319]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4379464,53.6535801]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6798205,53.5847332]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4147577,53.7407341]},"properties":{"crossing:barrier":"double_half","crossing:bell":"yes","crossing:light":"yes","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4379223,53.653604]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3478945,53.6828371]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4085988,53.6747378]},"properties":{"crossing:activation":"user","crossing:barrier":"gate","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4085853,53.6747131]},"properties":{"crossing:activation":"user","crossing:barrier":"gate","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2174924,53.7018142]},"properties":{"name":"Rampart Lane LC","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4148178,53.740721]},"properties":{"crossing:barrier":"double_half","crossing:bell":"yes","crossing:light":"yes","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4217678,53.8038573]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8069028,53.8385657]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8069007,53.8385667]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2106846,53.7017826]},"properties":{"name":"Rampart Lane LC","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2173888,53.7018409]},"properties":{"name":"Rampart Lane LC","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2254729,53.7030901]},"properties":{"railway":"crossing"}},
@@ -33,8 +36,8 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.333233,53.7891013]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3144936,53.787546]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3144739,53.78758]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3876562,53.7980245]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3876395,53.7980638]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3876547,53.7980243]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3876404,53.7980639]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9500599,53.8164009]},"properties":{"railway":"crossing","crossing":"uncontrolled","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.950063,53.8164034]},"properties":{"railway":"crossing","crossing":"uncontrolled","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.9500942000000002,53.8164279]},"properties":{"railway":"crossing","crossing":"uncontrolled","supervised":"no"}},
@@ -73,5 +76,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3875907,53.7216671]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3875984,53.721636]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.4066092,53.6751845]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.406627,53.6752065]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.406627,53.6752065]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1650912,53.7397714]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1650643,53.7398036]},"properties":{"railway":"crossing"}}
 ]}

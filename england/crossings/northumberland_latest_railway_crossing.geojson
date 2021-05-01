@@ -1,6 +1,6 @@
 {"type":"FeatureCollection","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5322277,54.9791969]},"properties":{"crossing:bell":"yes","railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5501809,55.1897299]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5502015,55.1897466]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.5440934,55.0690652]},"properties":{"crossing":"uncontrolled","crossing:barrier":"no","crossing:supervision":"no","name":"Mares Close","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5359934,54.9868236]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5752879,54.988749]},"properties":{"railway":"crossing"}},
@@ -52,5 +52,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8692362,54.963991300000007]},"properties":{"name":"Prudhoe Colliery","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5449422,54.9929932]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5449729,54.9929616]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.550168,55.1955446]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-2.1224429,55.646541],[-2.122407,55.6465047]]},"properties":{"foot":"designated","name":"Path to Heatherslaw Light Railway","railway":"crossing","sidewalk":"none"}}
 ]}

@@ -10,7 +10,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6018592,56.0182217]},"properties":{"railway":"signal","railway:signal:direction":"backward"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.6019183,56.0181876]},"properties":{"railway":"signal","railway:signal:direction":"forward"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2286875,56.0586761]},"properties":{"ref":"EU 467","railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:main:form":"light"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2225696,56.0626685]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:main:form":"light"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2226127,56.0626646]},"properties":{"railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:main:form":"light","railway:signal:position":"left"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1732283,56.0699263]},"properties":{"ref":"EU 481","railway":"signal","railway:signal:main":"GB-NR:main","railway:signal:position":"left","railway:signal:main:form":"light"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0972443,57.1388452]},"properties":{"ref":"A75","railway":"signal","railway:signal:main":"GB-NR:main"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0971898,57.1388438]},"properties":{"ref":"A77","railway":"signal","railway:signal:main":"GB-NR:main"}},

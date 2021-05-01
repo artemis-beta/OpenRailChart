@@ -50,6 +50,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3197655,52.1313745]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3198169,52.131383]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3180809,52.1344187]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.3329162,52.4066117]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1185649,52.2780129]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8493784,52.3613287]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2096372,52.393239]},"properties":{"railway":"crossing"}},

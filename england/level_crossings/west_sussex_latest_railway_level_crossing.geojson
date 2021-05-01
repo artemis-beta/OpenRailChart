@@ -36,7 +36,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6695103,50.8308446]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3246286,51.1147997]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8651143,50.84447]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0435637,51.0788435]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.043546,51.0788786]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8190634,50.8395597]},"properties":{"railway":"level_crossing","crossing:barrier":"half"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.5565053,50.8345803]},"properties":{"source":"OS OpenData StreetView","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2648428,50.8336275]},"properties":{"crossing:barrier":"double_half","railway":"level_crossing"}},

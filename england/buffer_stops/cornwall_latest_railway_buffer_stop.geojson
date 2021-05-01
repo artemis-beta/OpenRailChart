@@ -80,8 +80,11 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.7098718,50.3537127]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.7105203,50.3532617]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.7102172,50.3533952]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.7051881,50.3472184]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.7053007,50.347191]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-5.5327271,50.1218903]},"properties":{"ref":"PNZ","name":"Penzance","source":"NPE;OSM contriubtors","railway":"buffer_stop","naptan:AtcoCode":"9100PENZNCE"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-5.5315412,50.1226229]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-5.5314987,50.1226038]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-5.0558452,50.1512452]},"properties":{"railway":"buffer_stop"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-5.0558452,50.1512452]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.7777986,50.3930047]},"properties":{"railway":"buffer_stop"}}
 ]}

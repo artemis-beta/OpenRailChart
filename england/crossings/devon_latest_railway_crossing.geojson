@@ -61,7 +61,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.9859443,51.0020903]},"properties":{"name":"Little Weir Farm #2 LC (UWC) 205m6ch","railway":"crossing","description":"User Worked Crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.3656748,50.9095415]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.3657107,50.9095498]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.741327,50.7892003]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.7413246,50.7892148]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.8113951,50.8572796]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-4.1877215,50.3910472]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5702468,50.3518005]},"properties":{"railway":"crossing"}},

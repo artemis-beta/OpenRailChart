@@ -4,7 +4,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0615479,51.8019107]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.1644567,51.9969268]},"properties":{"railway":"crossing","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3445476,51.7177604]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3369591,51.74141]},"properties":{"barrier":"kissing_gate","railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3368635,51.7413225]},"properties":{"bicycle":"dismount","note":"This has been closed to the public in years past before but is definitely open as of April 2021","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0470769,52.0487987]},"properties":{"railway":"crossing","supervised":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0358384,52.0512602]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0410523,51.8083823]},"properties":{"railway":"crossing"}},

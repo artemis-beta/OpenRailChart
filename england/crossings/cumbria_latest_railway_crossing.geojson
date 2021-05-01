@@ -33,6 +33,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9253334,54.1727221]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9253726,54.1727341]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.8229043,54.1975914]},"properties":{"railway":"crossing","crossing":"uncontrolled"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5575579,54.6510394]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5499965,54.6695116]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5500442,54.6695227]},"properties":{"crossing":"marked","railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5360283,54.679174]},"properties":{"railway":"crossing"}},
@@ -49,8 +50,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.187933,54.2322088]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1879796,54.2322271]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1686517,54.1666283]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1650382,54.1629879]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.1650168,54.1629714]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2043743,54.1999892]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2044237,54.1999943]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.5461504,54.6343196]},"properties":{"railway":"crossing"}},
@@ -62,5 +61,10 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4948557,54.7110421]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.4948932,54.7110741]},"properties":{"railway":"crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5518835,54.6671086]},"properties":{"railway":"crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5518334,54.6670955]},"properties":{"railway":"crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5518334,54.6670955]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5642116,54.6503535]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.5916418,54.4850397]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2114594,54.2550123]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.2114184,54.2550327]},"properties":{"railway":"crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.9921464,54.2617954]},"properties":{"railway":"crossing"}}
 ]}

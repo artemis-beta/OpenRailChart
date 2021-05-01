@@ -1,4 +1,3 @@
 {"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1989333,52.9607275]},"properties":{"operator":"Trentham Leisure","railway":"halt"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1973282,52.956173]},"properties":{"railway":"halt"}}
+
 ]}

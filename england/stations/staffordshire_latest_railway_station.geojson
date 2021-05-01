@@ -45,5 +45,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.2658653,53.0329455]},"properties":{"name":"Silverdale","public_transport":"station","railway":"station","usage":"tourism"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0223507,52.6860971]},"properties":{"name":"Cannock","source":"NPE","network":"National Rail","railway":"station","ref:crs":"CAO","wikidata":"Q4016379","wikipedia":"en:Cannock railway station","naptan:AtcoCode":"9100CNCK","west_midlands_fare_zone":"5"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.8446597,52.6043776]},"properties":{"name":"Blake Street","naptan:AtcoCode":"9100BLKST","network":"National Rail","railway":"station","ref:crs":"BKT","west_midlands_fare_zone":"5","wikidata":"Q2454578","wikipedia":"en:Blake Street railway station"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0369415,52.9984067]},"properties":{"name":"Foxfield Colliery","railway":"station","usage":"tourism"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.0369415,52.9984067]},"properties":{"name":"Foxfield Colliery","railway":"station","usage":"tourism"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1989333,52.9607275]},"properties":{"operator":"Trentham Leisure","railway":"station","usage":"tourism"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-2.1973282,52.956173]},"properties":{"railway":"station","usage":"tourism"}}
 ]}

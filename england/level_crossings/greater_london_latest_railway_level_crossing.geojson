@@ -179,7 +179,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0536799,51.5747216]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0996481,51.378291]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0996943,51.3783881]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2389468,51.5297411]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2389468,51.5297411]},"properties":{"crossing:barrier":"no","railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2355198,51.5254115]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0425286,51.3545984]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.0425197,51.3545519]},"properties":{"railway":"level_crossing"}},
@@ -196,5 +196,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3425118,51.4351021]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3425014,51.4351296]},"properties":{"railway":"level_crossing"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-0.268102,51.5179911]},"properties":{"railway":"level_crossing"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2681197,51.518021]},"properties":{"railway":"level_crossing"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.2681197,51.518021]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[0.1583335,51.5187208]},"properties":{"railway":"level_crossing"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.4856482,51.5056722]},"properties":{"railway":"level_crossing"}}
 ]}

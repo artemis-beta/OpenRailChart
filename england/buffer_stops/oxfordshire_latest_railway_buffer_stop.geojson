@@ -35,5 +35,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.3266286,52.0797483]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2728394,51.8057541]},"properties":{"railway":"buffer_stop"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-1.2669367,51.8099018]},"properties":{"railway":"buffer_stop"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0856447,51.9766395]},"properties":{"railway":"buffer_stop"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0856447,51.9766395]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1338162,51.9004451]},"properties":{"railway":"buffer_stop"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.1334539,51.9004888]},"properties":{"railway":"buffer_stop"}}
 ]}
