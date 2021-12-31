@@ -486,3 +486,4 @@ jobs:
         with:
           branch: railgeodata
           folder: great-britain
+        if: env.BUILD_LAYERS != 'OFF'
