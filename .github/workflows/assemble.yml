@@ -1,7 +1,5 @@
 name: Fetch Data and Build
 on:
-  schedule:
-    - cron: '* * 1 * * '
   workflow_dispatch:
     inputs:
       name:

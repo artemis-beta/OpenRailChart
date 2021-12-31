@@ -17,6 +17,7 @@ osm_buffer_stop_layers = [];
 osm_rail_layers = [];
 osm_miniature_layers = [];
 osm_preserved_layers = [];
+osm_narrow_gauge_layers = [];
 osm_tram_layers = [];
 
 // For appending GeoJSON data to the global layers object
@@ -181,6 +182,30 @@ function append_miniature_json_data(data)
         }
     });
     osm_miniature_layers.push(myGeoJsonGroup);
+}
+
+function append_narrow_gauge_json_data(data)
+{
+    var myGeoJsonGroup = L.geoJson(data, {style: {color: "#b28ade"}});
+        myGeoJsonGroup.eachLayer(function (layer) {
+        geo = layer.feature.geometry;
+        coords = geo.coordinates;
+
+        if (geo.type === "LineString") {
+          myGeoJsonGroup.removeLayer(layer);
+          myGeoJsonGroup.addData({
+            type: "Feature",
+            properties: layer.feature.properties,
+            geometry: {
+              type: "LineString",
+              coordinates: coords
+            }
+          })
+        } else {
+          myGeoJsonGroup.removeLayer(layer);
+        }
+    });
+    osm_narrow_gauge_layers.push(myGeoJsonGroup);
 }
 
 function append_preserved_json_data(data)
